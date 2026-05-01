@@ -22,7 +22,7 @@ export function renderInicio(clientes, proyectos) {
           </div>
           <div class="card-body">
             <div class="card-header">
-              <p class="card-title">${p.name}</p>
+              <a class="card-title" href="${p.link}"> ${p.name}</a>
               <span class="card-id">#${p._id}</span>
             </div>
             <p class="card-description">${p.description}</p>

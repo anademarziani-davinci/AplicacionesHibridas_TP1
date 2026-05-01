@@ -15,8 +15,8 @@ export async function obtenerTodos(req, res) {
 export async function verProyectosDeCliente(req, res) {
     try{
         const clienteId = req.params.id;
-        const proyectos = await clientesService.obtenerProyectosDeCliente(clienteId);
         const cliente = await clientesService.obtenerClientePorId(clienteId);
+        const proyectos = cliente.proyectos || [];
         const html = clientesViews.verProyectosDeCliente(cliente, proyectos);
         res.send(html);
     }catch(error){

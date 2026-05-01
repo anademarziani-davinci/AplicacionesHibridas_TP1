@@ -1,7 +1,7 @@
 [
   {
     "_id": { "$oid": "7607f1f77bcf86cd79943901" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd79943901" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd79943901" }, "nombre": "Agencia Creativa AR", "foto": "https://i.pravatar.cc/300?img=1" },
     "name": "Rediseño de Identidad Visual",
     "description": "Renovación completa de la marca, incluyendo logo, paleta de colores y manual de uso.",
     "link": "https://agenciacreativa.com.ar/identidad",
@@ -11,7 +11,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd79943902" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd79943901" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd79943901" }, "nombre": "Agencia Creativa AR", "foto": "https://i.pravatar.cc/300?img=1" },
     "name": "Sitio Web Corporativo",
     "description": "Desarrollo del sitio institucional con portafolio de proyectos y formulario de contacto.",
     "link": "https://agenciacreativa.com.ar",
@@ -21,7 +21,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd79943903" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd79943901" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd79943901" }, "nombre": "Agencia Creativa AR", "foto": "https://i.pravatar.cc/300?img=1" },
     "name": "Campaña Redes Sociales",
     "description": "Estrategia de contenido y diseño de piezas para Instagram, LinkedIn y Facebook.",
     "link": "https://agenciacreativa.com.ar/social",
@@ -31,7 +31,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd79943904" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd79943902" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd79943902" }, "nombre": "TechSoluciones SA", "foto": "https://i.pravatar.cc/300?img=2" },
     "name": "ERP Interno",
     "description": "Sistema de gestión de recursos empresariales con módulos de RRHH, finanzas y logística.",
     "link": "https://techsoluciones.com.ar/erp",
@@ -41,7 +41,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd79943905" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd79943902" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd79943902" }, "nombre": "TechSoluciones SA", "foto": "https://i.pravatar.cc/300?img=2" },
     "name": "App de Gestión de Turnos",
     "description": "Aplicación móvil para reserva y administración de turnos para clientes internos.",
     "link": "https://techsoluciones.com.ar/turnos",
@@ -51,7 +51,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd79943906" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd79943902" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd79943902" }, "nombre": "TechSoluciones SA", "foto": "https://i.pravatar.cc/300?img=2" },
     "name": "API REST de Facturación",
     "description": "Microservicio de facturación electrónica integrado con AFIP y sistemas de terceros.",
     "link": "https://techsoluciones.com.ar/api",
@@ -61,7 +61,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd79943907" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd79943902" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd79943902" }, "nombre": "TechSoluciones SA", "foto": "https://i.pravatar.cc/300?img=2" },
     "name": "E-commerce B2B",
     "description": "Plataforma de compras para clientes corporativos con catálogo privado y cotizaciones.",
     "link": "https://techsoluciones.com.ar/shop",
@@ -71,7 +71,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd79943908" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd79943902" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd79943902" }, "nombre": "TechSoluciones SA", "foto": "https://i.pravatar.cc/300?img=2" },
     "name": "Dashboard de Métricas",
     "description": "Panel de control en tiempo real para monitoreo de KPIs operativos y financieros.",
     "link": "https://techsoluciones.com.ar/dashboard",
@@ -81,7 +81,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd79943909" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd79943903" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd79943903" }, "nombre": "Moda & Estilo BA", "foto": "https://i.pravatar.cc/300?img=3" },
     "name": "Tienda Online",
     "description": "E-commerce completo con catálogo de temporada, carrito y pagos con MercadoPago.",
     "link": "https://modaestiloba.com.ar/shop",
@@ -91,7 +91,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd7994390a" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd79943903" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd79943903" }, "nombre": "Moda & Estilo BA", "foto": "https://i.pravatar.cc/300?img=3" },
     "name": "Lookbook Digital",
     "description": "Catálogo interactivo de colecciones con galería de fotos y ficha de cada prenda.",
     "link": "https://modaestiloba.com.ar/lookbook",
@@ -101,7 +101,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd7994390b" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd79943905" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd79943905" }, "nombre": "Clínica Bienestar", "foto": "https://i.pravatar.cc/300?img=5" },
     "name": "Sitio Web Clínica",
     "description": "Web institucional con presentación de especialidades, equipo médico y ubicación.",
     "link": "https://clinicabienestar.com.ar",
@@ -111,7 +111,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd7994390c" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd79943905" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd79943905" }, "nombre": "Clínica Bienestar", "foto": "https://i.pravatar.cc/300?img=5" },
     "name": "App de Citas Médicas",
     "description": "Aplicación para solicitar y gestionar turnos médicos con recordatorios por WhatsApp.",
     "link": "https://clinicabienestar.com.ar/turnos",
@@ -121,7 +121,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd7994390d" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd79943905" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd79943905" }, "nombre": "Clínica Bienestar", "foto": "https://i.pravatar.cc/300?img=5" },
     "name": "Portal de Pacientes",
     "description": "Plataforma web donde los pacientes acceden a sus resultados, recetas y historial.",
     "link": "https://clinicabienestar.com.ar/portal",
@@ -131,7 +131,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd7994390e" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd79943905" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd79943905" }, "nombre": "Clínica Bienestar", "foto": "https://i.pravatar.cc/300?img=5" },
     "name": "Blog de Salud",
     "description": "Blog institucional con artículos de bienestar y consejos de los profesionales de la clínica.",
     "link": "https://clinicabienestar.com.ar/blog",
@@ -141,7 +141,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd7994390f" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd79943906" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd79943906" }, "nombre": "Estudio Luz", "foto": "https://i.pravatar.cc/300?img=6" },
     "name": "Portfolio Fotográfico",
     "description": "Sitio portfolio con galerías por categoría, formulario de cotización y bio del fotógrafo.",
     "link": "https://estudioluz.com.ar",
@@ -151,7 +151,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd79943910" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd79943907" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd79943907" }, "nombre": "Constructora del Norte", "foto": "https://i.pravatar.cc/300?img=7" },
     "name": "Sitio Corporativo",
     "description": "Web institucional con historia de la empresa, servicios y galería de obras realizadas.",
     "link": "https://constructoradelnorte.com.ar",
@@ -161,7 +161,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd79943911" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd79943907" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd79943907" }, "nombre": "Constructora del Norte", "foto": "https://i.pravatar.cc/300?img=7" },
     "name": "Catálogo de Obras",
     "description": "Catálogo interactivo de proyectos terminados con filtros por tipo, zona y año.",
     "link": "https://constructoradelnorte.com.ar/obras",
@@ -171,7 +171,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd79943912" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd79943907" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd79943907" }, "nombre": "Constructora del Norte", "foto": "https://i.pravatar.cc/300?img=7" },
     "name": "Calculadora de Presupuesto",
     "description": "Herramienta online para que clientes estimen el costo de su obra ingresando sus datos.",
     "link": "https://constructoradelnorte.com.ar/presupuesto",
@@ -181,7 +181,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd79943913" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd79943909" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd79943909" }, "nombre": "Tienda Verde", "foto": "https://i.pravatar.cc/300?img=9" },
     "name": "E-commerce Ecológico",
     "description": "Tienda online de productos orgánicos con filtros por categoría y certificaciones.",
     "link": "https://tiendaverde.com.ar",
@@ -191,7 +191,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd79943914" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd79943909" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd79943909" }, "nombre": "Tienda Verde", "foto": "https://i.pravatar.cc/300?img=9" },
     "name": "Newsletter y Fidelización",
     "description": "Sistema de newsletters segmentados con cupones de descuento para clientes frecuentes.",
     "link": "https://tiendaverde.com.ar/newsletter",
@@ -201,7 +201,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd79943915" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd7994390a" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd7994390a" }, "nombre": "EventosPro", "foto": "https://i.pravatar.cc/300?img=10" },
     "name": "Web de Eventos",
     "description": "Sitio principal con agenda de eventos, formulario de consulta y mapa de sedes.",
     "link": "https://eventospro.com.ar",
@@ -211,7 +211,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd79943916" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd7994390a" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd7994390a" }, "nombre": "EventosPro", "foto": "https://i.pravatar.cc/300?img=10" },
     "name": "App de Gestión de Eventos",
     "description": "Aplicación interna para coordinadores con checklist, proveedores y cronograma en tiempo real.",
     "link": "https://eventospro.com.ar/app",
@@ -221,7 +221,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd79943917" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd7994390a" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd7994390a" }, "nombre": "EventosPro", "foto": "https://i.pravatar.cc/300?img=10" },
     "name": "CRM de Clientes",
     "description": "Plataforma de gestión de clientes corporativos con historial de eventos y seguimiento.",
     "link": "https://eventospro.com.ar/crm",
@@ -231,7 +231,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd79943918" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd7994390a" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd7994390a" }, "nombre": "EventosPro", "foto": "https://i.pravatar.cc/300?img=10" },
     "name": "Galería de Eventos",
     "description": "Portal de galerías fotográficas organizadas por evento, con descarga habilitada para asistentes.",
     "link": "https://eventospro.com.ar/galeria",
@@ -241,7 +241,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd79943919" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd7994390a" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd7994390a" }, "nombre": "EventosPro", "foto": "https://i.pravatar.cc/300?img=10" },
     "name": "Sistema de Tickets Online",
     "description": "Venta y validación de entradas para eventos con QR y control de acceso en puerta.",
     "link": "https://eventospro.com.ar/tickets",
@@ -251,7 +251,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd7994391a" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd7994390b" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd7994390b" }, "nombre": "Finanzas Claras", "foto": "https://i.pravatar.cc/300?img=11" },
     "name": "Dashboard Financiero",
     "description": "Panel personalizado para visualizar flujo de caja, balances y proyecciones de clientes.",
     "link": "https://finanzasclaras.com.ar/dashboard",
@@ -261,7 +261,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd7994391b" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd7994390d" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd7994390d" }, "nombre": "Productora Musical", "foto": "https://i.pravatar.cc/300?img=13" },
     "name": "Sitio Web de la Productora",
     "description": "Página principal con catálogo de artistas, servicios de estudio y sala de prensa.",
     "link": "https://productoramusical.com.ar",
@@ -271,7 +271,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd7994391c" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd7994390d" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd7994390d" }, "nombre": "Productora Musical", "foto": "https://i.pravatar.cc/300?img=13" },
     "name": "Plataforma de Streaming",
     "description": "Servicio de escucha de demos y tracks en alta calidad para sellos y managers.",
     "link": "https://productoramusical.com.ar/streaming",
@@ -281,7 +281,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd7994391d" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd7994390d" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd7994390d" }, "nombre": "Productora Musical", "foto": "https://i.pravatar.cc/300?img=13" },
     "name": "Tienda de Merchandising",
     "description": "E-commerce de productos oficiales de los artistas del sello con envío a todo el país.",
     "link": "https://productoramusical.com.ar/tienda",
@@ -291,7 +291,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd7994391e" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd7994390d" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd7994390d" }, "nombre": "Productora Musical", "foto": "https://i.pravatar.cc/300?img=13" },
     "name": "Agenda de Shows",
     "description": "Calendario de shows y fechas con venta de entradas integrada y recordatorio por email.",
     "link": "https://productoramusical.com.ar/agenda",
@@ -301,7 +301,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd7994391f" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd7994390e" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd7994390e" }, "nombre": "Librería del Pueblo", "foto": "https://i.pravatar.cc/300?img=14" },
     "name": "Catálogo Online de Libros",
     "description": "Buscador de libros por autor, género y disponibilidad con opción de reserva online.",
     "link": "https://libreriapueblo.com.ar/catalogo",
@@ -311,7 +311,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd79943920" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd7994390e" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd7994390e" }, "nombre": "Librería del Pueblo", "foto": "https://i.pravatar.cc/300?img=14" },
     "name": "Blog de Reseñas Literarias",
     "description": "Blog con reseñas de libros escritas por el equipo y lectores de la comunidad.",
     "link": "https://libreriapueblo.com.ar/blog",
@@ -321,7 +321,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd79943921" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd79943910" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd79943910" }, "nombre": "Automotores Rápido", "foto": "https://i.pravatar.cc/300?img=16" },
     "name": "Sitio Web Concesionaria",
     "description": "Web con catálogo de vehículos nuevos y usados, comparador y formulario de test drive.",
     "link": "https://automotoresrapido.com.ar",
@@ -331,7 +331,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd79943922" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd79943910" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd79943910" }, "nombre": "Automotores Rápido", "foto": "https://i.pravatar.cc/300?img=16" },
     "name": "Catálogo de Vehículos",
     "description": "Módulo de búsqueda avanzada de vehículos con filtros por marca, precio, año y combustible.",
     "link": "https://automotoresrapido.com.ar/catalogo",
@@ -341,7 +341,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd79943923" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd79943910" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd79943910" }, "nombre": "Automotores Rápido", "foto": "https://i.pravatar.cc/300?img=16" },
     "name": "Turno Online para Taller",
     "description": "Sistema de reserva de turnos para el taller mecánico con recordatorio por SMS.",
     "link": "https://automotoresrapido.com.ar/taller",
@@ -351,7 +351,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd79943924" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd79943911" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd79943911" }, "nombre": "Consultoría Legal MG", "foto": "https://i.pravatar.cc/300?img=17" },
     "name": "Web Corporativa del Estudio",
     "description": "Sitio institucional con áreas de práctica, equipo de abogados y formulario de consulta.",
     "link": "https://consultorialegal.com.ar",
@@ -361,7 +361,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd79943925" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd79943912" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd79943912" }, "nombre": "Fitness & Vida", "foto": "https://i.pravatar.cc/300?img=18" },
     "name": "Sitio Web Gimnasio",
     "description": "Web institucional con planes de membresía, horarios de clases y galería de instalaciones.",
     "link": "https://fitnessvida.com.ar",
@@ -371,7 +371,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd79943926" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd79943912" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd79943912" }, "nombre": "Fitness & Vida", "foto": "https://i.pravatar.cc/300?img=18" },
     "name": "App de Rutinas",
     "description": "Aplicación móvil para seguimiento de rutinas, progreso y comunicación con el entrenador.",
     "link": "https://fitnessvida.com.ar/app",
@@ -381,7 +381,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd79943927" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd79943912" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd79943912" }, "nombre": "Fitness & Vida", "foto": "https://i.pravatar.cc/300?img=18" },
     "name": "Tienda de Suplementos",
     "description": "E-commerce de suplementos y ropa deportiva con envío en 24 hs en CABA.",
     "link": "https://fitnessvida.com.ar/tienda",
@@ -391,7 +391,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd79943928" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd79943912" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd79943912" }, "nombre": "Fitness & Vida", "foto": "https://i.pravatar.cc/300?img=18" },
     "name": "Blog de Nutrición",
     "description": "Blog con recetas saludables, artículos de nutricionistas y planes de alimentación descargables.",
     "link": "https://fitnessvida.com.ar/blog",
@@ -401,7 +401,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd79943929" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd79943912" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd79943912" }, "nombre": "Fitness & Vida", "foto": "https://i.pravatar.cc/300?img=18" },
     "name": "Sistema de Reservas de Clases",
     "description": "Módulo online para reservar clases grupales con cupos limitados y lista de espera.",
     "link": "https://fitnessvida.com.ar/reservas",
@@ -411,7 +411,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd7994392a" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd79943913" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd79943913" }, "nombre": "Pet Friends", "foto": "https://i.pravatar.cc/300?img=19" },
     "name": "Sitio Web Veterinaria",
     "description": "Web con servicios, equipo veterinario, horarios y consejos de cuidado para mascotas.",
     "link": "https://petfriends.com.ar",
@@ -421,7 +421,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd7994392b" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd79943913" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd79943913" }, "nombre": "Pet Friends", "foto": "https://i.pravatar.cc/300?img=19" },
     "name": "Tienda de Accesorios",
     "description": "E-commerce de productos para mascotas con sección por especie y entrega a domicilio.",
     "link": "https://petfriends.com.ar/tienda",
@@ -431,7 +431,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd7994392c" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd79943915" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd79943915" }, "nombre": "Inmobiliaria del Centro", "foto": "https://i.pravatar.cc/300?img=21" },
     "name": "Web Inmobiliaria",
     "description": "Sitio principal con búsqueda de propiedades, mapa interactivo y perfil de asesores.",
     "link": "https://inmobiliariadelcentro.com.ar",
@@ -441,7 +441,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd7994392d" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd79943915" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd79943915" }, "nombre": "Inmobiliaria del Centro", "foto": "https://i.pravatar.cc/300?img=21" },
     "name": "Buscador de Propiedades",
     "description": "Motor de búsqueda avanzado con filtros por zona, precio, ambientes y tipo de operación.",
     "link": "https://inmobiliariadelcentro.com.ar/buscar",
@@ -451,7 +451,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd7994392e" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd79943915" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd79943915" }, "nombre": "Inmobiliaria del Centro", "foto": "https://i.pravatar.cc/300?img=21" },
     "name": "CRM Inmobiliario",
     "description": "Sistema interno para gestión de leads, seguimiento de visitas y pipeline de ventas.",
     "link": "https://inmobiliariadelcentro.com.ar/crm",
@@ -461,7 +461,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd7994392f" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd79943916" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd79943916" }, "nombre": "Startup Innova", "foto": "https://i.pravatar.cc/300?img=22" },
     "name": "Landing Page de Lanzamiento",
     "description": "Landing page para la captación de early adopters con lista de espera y demo interactiva.",
     "link": "https://startupinnova.com.ar",
@@ -471,7 +471,7 @@
   },
   {
     "_id": { "$oid": "7607f1f77bcf86cd79943930" },
-    "clienteId": { "$oid": "6507f1f77bcf86cd79943916" },
+    "cliente": { "_id": { "$oid": "6507f1f77bcf86cd79943916" }, "nombre": "Startup Innova", "foto": "https://i.pravatar.cc/300?img=22" },
     "name": "MVP de la Plataforma IA",
     "description": "Primera versión funcional del producto con módulo de recomendaciones para retail.",
     "link": "https://startupinnova.com.ar/app",

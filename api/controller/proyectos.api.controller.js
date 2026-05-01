@@ -1,4 +1,5 @@
-﻿import * as service from "../../services/proyectos.services.js"     
+﻿import * as service from "../../services/proyectos.services.js"
+import * as clientesService from "../../services/clientes.services.js"
 
 
 export async function actualizarProyecto(req, res) {
@@ -58,22 +59,52 @@ export async function borrarProyecto(req, res) {
 
 export async function agregarProyecto(req, res) {
     try {
-       const proyecto = {
-            
+        const clienteInput = req.body.cliente;
+        let cliente;
+
+        if (clienteInput?._id) {
+            const existente = await clientesService.obtenerClientePorId(clienteInput._id);
+            if (existente) {
+                cliente = { _id: existente._id, nombre: existente.nombre, foto: existente.foto };
+            } else {
+                const nuevo = await clientesService.crearCliente({
+                    nombre: clienteInput.nombre ?? "Anónimo",
+                    foto: clienteInput.foto ?? "https://i.pravatar.cc/300?img=2",
+                    descripcion: clienteInput.descripcion ?? ""
+                });
+                cliente = { _id: nuevo._id, nombre: nuevo.nombre, foto: nuevo.foto };
+            }
+        } else if (clienteInput) {
+            const nuevo = await clientesService.crearCliente({
+                nombre: clienteInput.nombre ?? "Anónimo",
+                foto: clienteInput.foto ?? "https://i.pravatar.cc/300?img=2",
+                descripcion: clienteInput.descripcion ?? ""
+            });
+            cliente = { _id: nuevo._id, nombre: nuevo.nombre, foto: nuevo.foto };
+        } else {
+            const anonimo = await clientesService.crearCliente({
+                nombre: "Anónimo",
+                foto: "https://i.pravatar.cc/300?img=2",
+                descripcion: ""
+            });
+            cliente = { _id: anonimo._id, nombre: anonimo.nombre, foto: anonimo.foto };
+        }
+
+        const proyecto = {
             name: req.body.name,
             description: req.body.description,
             link: req.body.link,
             img: req.body.img,
             technologies: req.body.technologies,
-            section: req.body.section
+            section: req.body.section,
+            cliente: cliente
         }
-        
-        const respuesta = await service.crearProyecto(proyecto)
+
+        const respuesta = await service.crearProyecto(proyecto);
+        await clientesService.agregarProyectoACliente(cliente._id, respuesta);
         res.status(201).json(respuesta)
     } catch (error) {
-
-         console.error("Error al crear proyecto:", error);
-
+        console.error("Error al crear proyecto:", error);
         res.status(500).json({ message: error })
     }
 }

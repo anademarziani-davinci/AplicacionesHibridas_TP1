@@ -17,7 +17,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n\t\"name\": \"Nombre del proyecto\",\r\n\t\"description\": \"Descripcion del proyecto\",\r\n\t\"link\": \"http://miweb.com/proyecto\",\r\n\t\"img\": \"https://picsum.photos/400/225\",\r\n\t\"technologies\": [\"PHP\", \"Vue\", \"Laravel\"],\r\n\t\"section\": \"mobile2\"\r\n}",
+              "raw": "{\r\n\t\"name\": \"Nombre del proyecto 4\",\r\n\t\"description\": \"Descripcion del proyecto\",\r\n\t\"link\": \"http://miweb.com/proyecto\",\r\n\t\"img\": \"https://picsum.photos/400/225\",\r\n\t\"technologies\": [\"PHP\", \"Vue\", \"Laravel\"],\r\n\t\"section\": \"mobile2\",\r\n    \"cliente\": { \"_id\": { \"$oid\": \"6507f1f77bcf86cd79943901\" }, \"nombre\": \"Agencia Creativa AR\", \"foto\": \"https://i.pravatar.cc/300?img=1\" }\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -36,7 +36,7 @@
           },
           "response": [
             {
-              "name": "Ejemplo de creacion",
+              "name": "Ejemplo de creacion cliente anonimo",
               "originalRequest": {
                 "method": "POST",
                 "header": [],
@@ -94,6 +94,126 @@
               ],
               "cookie": [],
               "body": "{\n    \"name\": \"Nombre del proyecto\",\n    \"description\": \"Descripcion del proyecto\",\n    \"link\": \"http://miweb.com/proyecto\",\n    \"img\": \"https://picsum.photos/400/225\",\n    \"technologies\": [\n        \"PHP\",\n        \"Vue\",\n        \"Laravel\"\n    ],\n    \"section\": \"mobile2\",\n    \"_id\": \"69f50b3730c317f0463f3b13\"\n}"
+            },
+            {
+              "name": "Ejemplo de creacion con cliente existente",
+              "originalRequest": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n\t\"name\": \"Nombre del proyecto 4\",\r\n\t\"description\": \"Descripcion del proyecto\",\r\n\t\"link\": \"http://miweb.com/proyecto\",\r\n\t\"img\": \"https://picsum.photos/400/225\",\r\n\t\"technologies\": [\"PHP\", \"Vue\", \"Laravel\"],\r\n\t\"section\": \"mobile2\",\r\n    \"cliente\": { \"_id\": \"6507f1f77bcf86cd79943901\", \"nombre\": \"Agencia Creativa AR\", \"foto\": \"https://i.pravatar.cc/300?img=1\" }\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{APIURL}}api/proyectos",
+                  "host": [
+                    "{{APIURL}}api"
+                  ],
+                  "path": [
+                    "proyectos"
+                  ]
+                }
+              },
+              "status": "Created",
+              "code": 201,
+              "_postman_previewlanguage": null,
+              "header": [
+                {
+                  "key": "X-Powered-By",
+                  "value": "Express"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json; charset=utf-8"
+                },
+                {
+                  "key": "Content-Length",
+                  "value": "364"
+                },
+                {
+                  "key": "ETag",
+                  "value": "W/\"16c-+dnIFOxQraZjZuwHvUEFc6oa1CE\""
+                },
+                {
+                  "key": "Date",
+                  "value": "Fri, 01 May 2026 22:04:21 GMT"
+                },
+                {
+                  "key": "Connection",
+                  "value": "keep-alive"
+                },
+                {
+                  "key": "Keep-Alive",
+                  "value": "timeout=5"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n    \"name\": \"Nombre del proyecto 4\",\n    \"description\": \"Descripcion del proyecto\",\n    \"link\": \"http://miweb.com/proyecto\",\n    \"img\": \"https://picsum.photos/400/225\",\n    \"technologies\": [\n        \"PHP\",\n        \"Vue\",\n        \"Laravel\"\n    ],\n    \"section\": \"mobile2\",\n    \"cliente\": {\n        \"_id\": {\n            \"$oid\": \"6507f1f77bcf86cd79943901\"\n        },\n        \"nombre\": \"Agencia Creativa AR\",\n        \"foto\": \"https://i.pravatar.cc/300?img=1\"\n    },\n    \"_id\": \"69f523659a0477db60a7b08d\"\n}"
+            },
+            {
+              "name": "Ejemplo de creacion con cliente no existente",
+              "originalRequest": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n\t\"name\": \"Nombre del proyecto 4\",\r\n\t\"description\": \"Descripcion del proyecto\",\r\n\t\"link\": \"http://miweb.com/proyecto\",\r\n\t\"img\": \"https://picsum.photos/400/225\",\r\n\t\"technologies\": [\"PHP\", \"Vue\", \"Laravel\"],\r\n\t\"section\": \"mobile2\",\r\n    \"cliente\": { \"_id\": \"6507f1f77bcf86cd79943999\", \"nombre\": \"Agencia No Existo\", \"foto\": \"https://i.pravatar.cc/300?img=1\" }\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{APIURL}}api/proyectos",
+                  "host": [
+                    "{{APIURL}}api"
+                  ],
+                  "path": [
+                    "proyectos"
+                  ]
+                }
+              },
+              "status": "Created",
+              "code": 201,
+              "_postman_previewlanguage": null,
+              "header": [
+                {
+                  "key": "X-Powered-By",
+                  "value": "Express"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json; charset=utf-8"
+                },
+                {
+                  "key": "Content-Length",
+                  "value": "364"
+                },
+                {
+                  "key": "ETag",
+                  "value": "W/\"16c-+dnIFOxQraZjZuwHvUEFc6oa1CE\""
+                },
+                {
+                  "key": "Date",
+                  "value": "Fri, 01 May 2026 22:04:21 GMT"
+                },
+                {
+                  "key": "Connection",
+                  "value": "keep-alive"
+                },
+                {
+                  "key": "Keep-Alive",
+                  "value": "timeout=5"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n    \"name\": \"Nombre del proyecto 4\",\n    \"description\": \"Descripcion del proyecto\",\n    \"link\": \"http://miweb.com/proyecto\",\n    \"img\": \"https://picsum.photos/400/225\",\n    \"technologies\": [\n        \"PHP\",\n        \"Vue\",\n        \"Laravel\"\n    ],\n    \"section\": \"mobile2\",\n    \"cliente\": {\n        \"_id\": {\n            \"$oid\": \"6507f1f77bcf86cd79943901\"\n        },\n        \"nombre\": \"Agencia Creativa AR\",\n        \"foto\": \"https://i.pravatar.cc/300?img=1\"\n    },\n    \"_id\": \"69f523659a0477db60a7b08d\"\n}"
             }
           ]
         },
@@ -183,6 +303,101 @@
               ],
               "cookie": [],
               "body": "{\n    \"message\": \"Proyecto con id 69f50b3730c317f0463f3b13 actualizado\"\n}"
+            }
+          ]
+        },
+        {
+          "name": "/api/proyectos",
+          "request": {
+            "method": "PATCH",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n\t\"name\": \"Nombre del proyecto 3\",\r\n\t\"description\": \"Descripcion del proyecto\",\r\n\t\"link\": \"http://miweb.com/proyecto\",\r\n\t\"img\": \"https://picsum.photos/400/225\",\r\n\t\"technologies\": [\"PHP\", \"Vue\", \"Laravel\"],\r\n\t\"section\": \"mobile3\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{APIURL}}api/proyectos/69f5226c1ac7f9c35e7f52c4",
+              "host": [
+                "{{APIURL}}api"
+              ],
+              "path": [
+                "proyectos",
+                "69f5226c1ac7f9c35e7f52c4"
+              ]
+            }
+          },
+          "response": [
+            {
+              "name": "Ejemplo de patch",
+              "originalRequest": {
+                "method": "PATCH",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n\t\"name\": \"Nombre del proyecto 3\",\r\n\t\"description\": \"Descripcion del proyecto\",\r\n\t\"link\": \"http://miweb.com/proyecto\",\r\n\t\"img\": \"https://picsum.photos/400/225\",\r\n\t\"technologies\": [\"PHP\", \"Vue\", \"Laravel\"],\r\n\t\"section\": \"mobile3\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{APIURL}}api/proyectos/69f5226c1ac7f9c35e7f52c4",
+                  "host": [
+                    "{{APIURL}}api"
+                  ],
+                  "path": [
+                    "proyectos",
+                    "69f5226c1ac7f9c35e7f52c4"
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "",
+              "header": [
+                {
+                  "key": "X-Powered-By",
+                  "value": "Express"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json; charset=utf-8"
+                },
+                {
+                  "key": "Content-Length",
+                  "value": "66"
+                },
+                {
+                  "key": "ETag",
+                  "value": "W/\"42-OQYOUNAsDCgfuhgZAsjGGqS46fg\""
+                },
+                {
+                  "key": "Date",
+                  "value": "Fri, 01 May 2026 22:00:56 GMT"
+                },
+                {
+                  "key": "Connection",
+                  "value": "keep-alive"
+                },
+                {
+                  "key": "Keep-Alive",
+                  "value": "timeout=5"
+                }
+              ],
+              "cookie": [
+                {
+                  "expires": "Invalid Date",
+                  "domain": "",
+                  "path": ""
+                }
+              ],
+              "body": "{\n    \"message\": \"Proyecto con id 69f5226c1ac7f9c35e7f52c4 actualizado\"\n}"
             }
           ]
         },
@@ -289,7 +504,7 @@
               "raw": "{\r\n    \r\n}"
             },
             "url": {
-              "raw": "{{APIURL}}api/proyectos?nombre=Nombre&seccion=mobile",
+              "raw": "{{APIURL}}api/proyectos?nombre=ERP&seccion=Dashboard",
               "host": [
                 "{{APIURL}}api"
               ],
@@ -299,18 +514,18 @@
               "query": [
                 {
                   "key": "nombre",
-                  "value": "Nombre"
+                  "value": "ERP"
                 },
                 {
                   "key": "seccion",
-                  "value": "mobile"
+                  "value": "Dashboard"
                 }
               ]
             }
           },
           "response": [
             {
-              "name": "EjemploObtener",
+              "name": "Obtener Dashboard ERP",
               "originalRequest": {
                 "method": "GET",
                 "header": [],
@@ -319,7 +534,7 @@
                   "raw": "{\r\n    \r\n}"
                 },
                 "url": {
-                  "raw": "{{APIURL}}api/proyectos?nombre=Nombre&seccion=mobile3",
+                  "raw": "{{APIURL}}api/proyectos?nombre=ERP&seccion=Dashboard",
                   "host": [
                     "{{APIURL}}api"
                   ],
@@ -329,11 +544,11 @@
                   "query": [
                     {
                       "key": "nombre",
-                      "value": "Nombre"
+                      "value": "ERP"
                     },
                     {
                       "key": "seccion",
-                      "value": "mobile3"
+                      "value": "Dashboard"
                     }
                   ]
                 }
@@ -352,15 +567,15 @@
                 },
                 {
                   "key": "Content-Length",
-                  "value": "270"
+                  "value": "450"
                 },
                 {
                   "key": "ETag",
-                  "value": "W/\"10e-rRf8feQhrhqdME3UGTLiTcFHOpM\""
+                  "value": "W/\"1c2-Hy/5wxeTPblXAVXlTfaYrI1WKr0\""
                 },
                 {
                   "key": "Date",
-                  "value": "Fri, 01 May 2026 20:24:59 GMT"
+                  "value": "Fri, 01 May 2026 23:15:32 GMT"
                 },
                 {
                   "key": "Connection",
@@ -372,7 +587,7 @@
                 }
               ],
               "cookie": [],
-              "body": "[\n    {\n        \"_id\": \"69f50b3730c317f0463f3b13\",\n        \"name\": \"Nombre del proyecto\",\n        \"description\": \"Descripcion del proyecto\",\n        \"link\": \"http://miweb.com/proyecto\",\n        \"img\": \"https://picsum.photos/400/225\",\n        \"technologies\": [\n            \"PHP\",\n            \"Vue\",\n            \"Laravel\"\n        ],\n        \"section\": \"mobile3\",\n        \"id\": \"69f50b3730c317f0463f3b13\"\n    }\n]"
+              "body": "[\n    {\n        \"_id\": \"7607f1f77bcf86cd79943904\",\n        \"cliente\": {\n            \"_id\": \"6507f1f77bcf86cd79943902\",\n            \"nombre\": \"TechSoluciones SA\",\n            \"foto\": \"https://i.pravatar.cc/300?img=2\"\n        },\n        \"name\": \"ERP Interno\",\n        \"description\": \"Sistema de gestión de recursos empresariales con módulos de RRHH, finanzas y logística.\",\n        \"link\": \"https://techsoluciones.com.ar/erp\",\n        \"img\": \"https://picsum.photos/seed/erp1/600/400\",\n        \"technologies\": [\n            \"Vue.js\",\n            \"Node.js\",\n            \"PostgreSQL\",\n            \"Docker\"\n        ],\n        \"section\": \"Dashboard\"\n    }\n]"
             }
           ]
         },
@@ -458,13 +673,13 @@
               "raw": "{\r\n    \r\n}"
             },
             "url": {
-              "raw": "{{APIURL}}api/proyectos/69e9fd0d8320f2382f6629f2",
+              "raw": "{{APIURL}}api/proyectos/7607f1f77bcf86cd79943904",
               "host": [
                 "{{APIURL}}api"
               ],
               "path": [
                 "proyectos",
-                "69e9fd0d8320f2382f6629f2"
+                "7607f1f77bcf86cd79943904"
               ]
             }
           },
@@ -479,13 +694,13 @@
                   "raw": "{\r\n    \r\n}"
                 },
                 "url": {
-                  "raw": "{{APIURL}}api/proyectos/69f50b3730c317f0463f3b13",
+                  "raw": "{{APIURL}}api/proyectos/7607f1f77bcf86cd79943904",
                   "host": [
                     "{{APIURL}}api"
                   ],
                   "path": [
                     "proyectos",
-                    "69f50b3730c317f0463f3b13"
+                    "7607f1f77bcf86cd79943904"
                   ]
                 }
               },
@@ -627,7 +842,7 @@
           },
           "response": [
             {
-              "name": "/api/clientes",
+              "name": "Ejemplo crear clientes",
               "originalRequest": {
                 "method": "POST",
                 "header": [],
@@ -641,19 +856,18 @@
                   }
                 },
                 "url": {
-                  "raw": "{{APIRUL}}/api/clientes",
+                  "raw": "{{APIURL}}api/clientes",
                   "host": [
-                    "{{APIRUL}}"
+                    "{{APIURL}}api"
                   ],
                   "path": [
-                    "api",
                     "clientes"
                   ]
                 }
               },
               "status": "Created",
               "code": 201,
-              "_postman_previewlanguage": "Text",
+              "_postman_previewlanguage": null,
               "header": [
                 {
                   "key": "X-Powered-By",
@@ -669,11 +883,11 @@
                 },
                 {
                   "key": "ETag",
-                  "value": "W/\"ad-FJPOhkbDB5ysThezHTFdJ14CFA8\""
+                  "value": "W/\"ad-bwnriae594HtLnpibypcflbZPGw\""
                 },
                 {
                   "key": "Date",
-                  "value": "Thu, 23 Apr 2026 11:56:34 GMT"
+                  "value": "Fri, 01 May 2026 23:17:10 GMT"
                 },
                 {
                   "key": "Connection",
@@ -685,7 +899,7 @@
                 }
               ],
               "cookie": [],
-              "body": "{\n    \"_id\": \"69ea08f2341c57f2bdd41091\",\n    \"nombre\": \"Juan del pueblo\",\n    \"foto\": \"http://picsum.photos/400/225\",\n    \"descripcion\": \"Soy un usuario\",\n    \"fechaCreacion\": \"2026-04-23T11:56:34.543Z\"\n}"
+              "body": "{\n    \"_id\": \"69f53476bc9e6bea908facb2\",\n    \"nombre\": \"Juan del pueblo\",\n    \"foto\": \"http://picsum.photos/400/225\",\n    \"descripcion\": \"Soy un usuario\",\n    \"fechaCreacion\": \"2026-05-01T23:17:10.389Z\"\n}"
             }
           ]
         },
@@ -704,20 +918,20 @@
               }
             },
             "url": {
-              "raw": "{{APIURL}}api/clientes/69ea08f2341c57f2bdd41091/proyectos",
+              "raw": "{{APIURL}}api/clientes/69f53476bc9e6bea908facb2/proyectos",
               "host": [
                 "{{APIURL}}api"
               ],
               "path": [
                 "clientes",
-                "69ea08f2341c57f2bdd41091",
+                "69f53476bc9e6bea908facb2",
                 "proyectos"
               ]
             }
           },
           "response": [
             {
-              "name": "Ejemplo obtener clientes por id",
+              "name": "Ejemplo agregar proyecto a cliente",
               "originalRequest": {
                 "method": "POST",
                 "header": [],
@@ -731,13 +945,13 @@
                   }
                 },
                 "url": {
-                  "raw": "{{APIURL}}api/clientes/69ea08f2341c57f2bdd41091/proyectos",
+                  "raw": "{{APIURL}}api/clientes/69f53476bc9e6bea908facb2/proyectos",
                   "host": [
                     "{{APIURL}}api"
                   ],
                   "path": [
                     "clientes",
-                    "69ea08f2341c57f2bdd41091",
+                    "69f53476bc9e6bea908facb2",
                     "proyectos"
                   ]
                 }
@@ -756,15 +970,15 @@
                 },
                 {
                   "key": "Content-Length",
-                  "value": "331"
+                  "value": "402"
                 },
                 {
                   "key": "ETag",
-                  "value": "W/\"14b-vwsdyE9BtrHnDxlifIhJWgRiw4E\""
+                  "value": "W/\"192-2hZhsk9HQwgUmJmCy13K8teMZE4\""
                 },
                 {
                   "key": "Date",
-                  "value": "Fri, 01 May 2026 20:26:52 GMT"
+                  "value": "Fri, 01 May 2026 23:17:31 GMT"
                 },
                 {
                   "key": "Connection",
@@ -776,7 +990,7 @@
                 }
               ],
               "cookie": [],
-              "body": "{\n    \"name\": \"Nombre del proyecto para cliente\",\n    \"description\": \"Descripcion del proyecto\",\n    \"link\": \"http://miweb.com/proyecto\",\n    \"img\": \"https://picsum.photos/400/225\",\n    \"technologies\": [\n        \"PHP\",\n        \"Vue\",\n        \"Laravel\"\n    ],\n    \"section\": \"mobile2\",\n    \"_id\": \"69f50c8c30c317f0463f3b14\",\n    \"clienteId\": \"69ea08f2341c57f2bdd41091\",\n    \"fechaCreacion\": \"2026-05-01T20:26:52.540Z\"\n}"
+              "body": "{\n    \"name\": \"Nombre del proyecto para cliente\",\n    \"description\": \"Descripcion del proyecto\",\n    \"link\": \"http://miweb.com/proyecto\",\n    \"img\": \"https://picsum.photos/400/225\",\n    \"technologies\": [\n        \"PHP\",\n        \"Vue\",\n        \"Laravel\"\n    ],\n    \"section\": \"mobile2\",\n    \"_id\": \"69f5348bbc9e6bea908facb3\",\n    \"cliente\": {\n        \"_id\": \"69f53476bc9e6bea908facb2\",\n        \"nombre\": \"Juan del pueblo\",\n        \"foto\": \"http://picsum.photos/400/225\"\n    },\n    \"fechaCreacion\": \"2026-05-01T23:17:31.516Z\"\n}"
             }
           ]
         }

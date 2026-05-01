@@ -12,12 +12,16 @@ export function crearListaProyectos(proyectos, filtros = {}) {
             </div>
             <div class="card-body">
                 <div class="card-header">
-                    <p class="card-title">${proyecto.name}</p>
+                    <a class="card-title" href="${proyecto.link}"> ${proyecto.name}</a>
                     <span class="card-id">#${proyecto._id}</span>
                 </div>
                 <p class="card-description">${proyecto.description}</p>
                 <div class="card-tags">
                     ${(proyecto.technologies ?? []).map(tech => `<span class="tag">${tech}</span>`).join("")}
+                </div>
+                <div class="card-client">
+                    <img src="${proyecto.cliente?.foto}" alt="${proyecto.cliente?.nombre}" class="avatar" />
+                    <span class="card-client-name">${proyecto.cliente?.nombre}</span>
                 </div>
             </div>
         </div>`).join("")

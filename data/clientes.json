@@ -4,153 +4,240 @@
     "nombre": "Agencia Creativa AR",
     "descripcion": "Estudio de diseño y comunicación especializado en identidad visual y campañas digitales.",
     "foto": "https://i.pravatar.cc/300?img=1",
-    "fechaCreacion": { "$date": "2023-03-12T09:00:00.000Z" }
+    "fechaCreacion": { "$date": "2023-03-12T09:00:00.000Z" },
+    "proyectos": [
+      { "_id": { "$oid": "7607f1f77bcf86cd79943901" }, "name": "Rediseño de Identidad Visual", "description": "Renovación completa de la marca, incluyendo logo, paleta de colores y manual de uso.", "img": "https://picsum.photos/seed/brand1/600/400", "section": "Branding", "technologies": ["Figma", "Illustrator", "Photoshop"], "link": "https://agenciacreativa.com.ar/identidad" },
+      { "_id": { "$oid": "7607f1f77bcf86cd79943902" }, "name": "Sitio Web Corporativo", "description": "Desarrollo del sitio institucional con portafolio de proyectos y formulario de contacto.", "img": "https://picsum.photos/seed/web1/600/400", "section": "Web", "technologies": ["React", "Tailwind CSS", "Node.js"], "link": "https://agenciacreativa.com.ar" },
+      { "_id": { "$oid": "7607f1f77bcf86cd79943903" }, "name": "Campaña Redes Sociales", "description": "Estrategia de contenido y diseño de piezas para Instagram, LinkedIn y Facebook.", "img": "https://picsum.photos/seed/social1/600/400", "section": "Marketing", "technologies": ["Canva Pro", "Adobe Express", "Hootsuite"], "link": "https://agenciacreativa.com.ar/social" }
+    ]
   },
   {
     "_id": { "$oid": "6507f1f77bcf86cd79943902" },
     "nombre": "TechSoluciones SA",
     "descripcion": "Empresa de desarrollo de software a medida para pymes y corporaciones.",
     "foto": "https://i.pravatar.cc/300?img=2",
-    "fechaCreacion": { "$date": "2023-04-05T10:30:00.000Z" }
+    "fechaCreacion": { "$date": "2023-04-05T10:30:00.000Z" },
+    "proyectos": [
+      { "_id": { "$oid": "7607f1f77bcf86cd79943904" }, "name": "ERP Interno", "description": "Sistema de gestión de recursos empresariales con módulos de RRHH, finanzas y logística.", "img": "https://picsum.photos/seed/erp1/600/400", "section": "Dashboard", "technologies": ["Vue.js", "Node.js", "PostgreSQL", "Docker"], "link": "https://techsoluciones.com.ar/erp" },
+      { "_id": { "$oid": "7607f1f77bcf86cd79943905" }, "name": "App de Gestión de Turnos", "description": "Aplicación móvil para reserva y administración de turnos para clientes internos.", "img": "https://picsum.photos/seed/mobile1/600/400", "section": "Mobile", "technologies": ["React Native", "Expo", "Firebase"], "link": "https://techsoluciones.com.ar/turnos" },
+      { "_id": { "$oid": "7607f1f77bcf86cd79943906" }, "name": "API REST de Facturación", "description": "Microservicio de facturación electrónica integrado con AFIP y sistemas de terceros.", "img": "https://picsum.photos/seed/api1/600/400", "section": "Web", "technologies": ["Node.js", "Express", "MongoDB", "JWT"], "link": "https://techsoluciones.com.ar/api" },
+      { "_id": { "$oid": "7607f1f77bcf86cd79943907" }, "name": "E-commerce B2B", "description": "Plataforma de compras para clientes corporativos con catálogo privado y cotizaciones.", "img": "https://picsum.photos/seed/ecom1/600/400", "section": "E-commerce", "technologies": ["Next.js", "Stripe", "MongoDB", "Redis"], "link": "https://techsoluciones.com.ar/shop" },
+      { "_id": { "$oid": "7607f1f77bcf86cd79943908" }, "name": "Dashboard de Métricas", "description": "Panel de control en tiempo real para monitoreo de KPIs operativos y financieros.", "img": "https://picsum.photos/seed/dash1/600/400", "section": "Dashboard", "technologies": ["React", "Chart.js", "WebSockets", "Node.js"], "link": "https://techsoluciones.com.ar/dashboard" }
+    ]
   },
   {
     "_id": { "$oid": "6507f1f77bcf86cd79943903" },
     "nombre": "Moda & Estilo BA",
     "descripcion": "Tienda de ropa y accesorios de diseño independiente con presencia online.",
     "foto": "https://i.pravatar.cc/300?img=3",
-    "fechaCreacion": { "$date": "2023-05-18T08:00:00.000Z" }
+    "fechaCreacion": { "$date": "2023-05-18T08:00:00.000Z" },
+    "proyectos": [
+      { "_id": { "$oid": "7607f1f77bcf86cd79943909" }, "name": "Tienda Online", "description": "E-commerce completo con catálogo de temporada, carrito y pagos con MercadoPago.", "img": "https://picsum.photos/seed/fashion1/600/400", "section": "E-commerce", "technologies": ["Next.js", "MercadoPago", "Sanity CMS"], "link": "https://modaestiloba.com.ar/shop" },
+      { "_id": { "$oid": "7607f1f77bcf86cd7994390a" }, "name": "Lookbook Digital", "description": "Catálogo interactivo de colecciones con galería de fotos y ficha de cada prenda.", "img": "https://picsum.photos/seed/fashion2/600/400", "section": "Diseño", "technologies": ["HTML", "CSS", "GSAP"], "link": "https://modaestiloba.com.ar/lookbook" }
+    ]
   },
   {
     "_id": { "$oid": "6507f1f77bcf86cd79943904" },
     "nombre": "Restaurante El Sabor",
     "descripcion": "Gastronomía de autor con enfoque en productos locales y de temporada.",
     "foto": "https://i.pravatar.cc/300?img=4",
-    "fechaCreacion": { "$date": "2023-06-01T12:00:00.000Z" }
+    "fechaCreacion": { "$date": "2023-06-01T12:00:00.000Z" },
+    "proyectos": []
   },
   {
     "_id": { "$oid": "6507f1f77bcf86cd79943905" },
     "nombre": "Clínica Bienestar",
     "descripcion": "Centro médico integral con especialidades en kinesiología, nutrición y psicología.",
     "foto": "https://i.pravatar.cc/300?img=5",
-    "fechaCreacion": { "$date": "2023-06-20T09:00:00.000Z" }
+    "fechaCreacion": { "$date": "2023-06-20T09:00:00.000Z" },
+    "proyectos": [
+      { "_id": { "$oid": "7607f1f77bcf86cd7994390b" }, "name": "Sitio Web Clínica", "description": "Web institucional con presentación de especialidades, equipo médico y ubicación.", "img": "https://picsum.photos/seed/clinic1/600/400", "section": "Web", "technologies": ["React", "CSS Modules", "Node.js"], "link": "https://clinicabienestar.com.ar" },
+      { "_id": { "$oid": "7607f1f77bcf86cd7994390c" }, "name": "App de Citas Médicas", "description": "Aplicación para solicitar y gestionar turnos médicos con recordatorios por WhatsApp.", "img": "https://picsum.photos/seed/clinic2/600/400", "section": "Mobile", "technologies": ["React Native", "Node.js", "MongoDB", "Twilio"], "link": "https://clinicabienestar.com.ar/turnos" },
+      { "_id": { "$oid": "7607f1f77bcf86cd7994390d" }, "name": "Portal de Pacientes", "description": "Plataforma web donde los pacientes acceden a sus resultados, recetas y historial.", "img": "https://picsum.photos/seed/clinic3/600/400", "section": "Dashboard", "technologies": ["Vue.js", "Node.js", "PostgreSQL"], "link": "https://clinicabienestar.com.ar/portal" },
+      { "_id": { "$oid": "7607f1f77bcf86cd7994390e" }, "name": "Blog de Salud", "description": "Blog institucional con artículos de bienestar y consejos de los profesionales de la clínica.", "img": "https://picsum.photos/seed/clinic4/600/400", "section": "Web", "technologies": ["WordPress", "Elementor", "SEO"], "link": "https://clinicabienestar.com.ar/blog" }
+    ]
   },
   {
     "_id": { "$oid": "6507f1f77bcf86cd79943906" },
     "nombre": "Estudio Luz",
     "descripcion": "Fotografía profesional para marcas, eventos corporativos y retratos.",
     "foto": "https://i.pravatar.cc/300?img=6",
-    "fechaCreacion": { "$date": "2023-07-08T11:00:00.000Z" }
+    "fechaCreacion": { "$date": "2023-07-08T11:00:00.000Z" },
+    "proyectos": [
+      { "_id": { "$oid": "7607f1f77bcf86cd7994390f" }, "name": "Portfolio Fotográfico", "description": "Sitio portfolio con galerías por categoría, formulario de cotización y bio del fotógrafo.", "img": "https://picsum.photos/seed/photo1/600/400", "section": "Diseño", "technologies": ["HTML", "CSS", "JavaScript", "Lightgallery.js"], "link": "https://estudioluz.com.ar" }
+    ]
   },
   {
     "_id": { "$oid": "6507f1f77bcf86cd79943907" },
     "nombre": "Constructora del Norte",
     "descripcion": "Empresa constructora con más de 20 años de experiencia en obra civil y arquitectura.",
     "foto": "https://i.pravatar.cc/300?img=7",
-    "fechaCreacion": { "$date": "2023-07-22T08:30:00.000Z" }
+    "fechaCreacion": { "$date": "2023-07-22T08:30:00.000Z" },
+    "proyectos": [
+      { "_id": { "$oid": "7607f1f77bcf86cd79943910" }, "name": "Sitio Corporativo", "description": "Web institucional con historia de la empresa, servicios y galería de obras realizadas.", "img": "https://picsum.photos/seed/const1/600/400", "section": "Web", "technologies": ["React", "Tailwind CSS"], "link": "https://constructoradelnorte.com.ar" },
+      { "_id": { "$oid": "7607f1f77bcf86cd79943911" }, "name": "Catálogo de Obras", "description": "Catálogo interactivo de proyectos terminados con filtros por tipo, zona y año.", "img": "https://picsum.photos/seed/const2/600/400", "section": "Web", "technologies": ["Vue.js", "Leaflet.js", "Node.js"], "link": "https://constructoradelnorte.com.ar/obras" },
+      { "_id": { "$oid": "7607f1f77bcf86cd79943912" }, "name": "Calculadora de Presupuesto", "description": "Herramienta online para que clientes estimen el costo de su obra ingresando sus datos.", "img": "https://picsum.photos/seed/const3/600/400", "section": "Web", "technologies": ["JavaScript", "HTML", "CSS"], "link": "https://constructoradelnorte.com.ar/presupuesto" }
+    ]
   },
   {
     "_id": { "$oid": "6507f1f77bcf86cd79943908" },
     "nombre": "Academia Digital",
     "descripcion": "Plataforma de formación online en programación, diseño y marketing.",
     "foto": "https://i.pravatar.cc/300?img=8",
-    "fechaCreacion": { "$date": "2023-08-03T10:00:00.000Z" }
+    "fechaCreacion": { "$date": "2023-08-03T10:00:00.000Z" },
+    "proyectos": []
   },
   {
     "_id": { "$oid": "6507f1f77bcf86cd79943909" },
     "nombre": "Tienda Verde",
     "descripcion": "Comercio de productos ecológicos, orgánicos y de comercio justo.",
     "foto": "https://i.pravatar.cc/300?img=9",
-    "fechaCreacion": { "$date": "2023-08-15T09:00:00.000Z" }
+    "fechaCreacion": { "$date": "2023-08-15T09:00:00.000Z" },
+    "proyectos": [
+      { "_id": { "$oid": "7607f1f77bcf86cd79943913" }, "name": "E-commerce Ecológico", "description": "Tienda online de productos orgánicos con filtros por categoría y certificaciones.", "img": "https://picsum.photos/seed/green1/600/400", "section": "E-commerce", "technologies": ["Next.js", "MercadoPago", "MongoDB"], "link": "https://tiendaverde.com.ar" },
+      { "_id": { "$oid": "7607f1f77bcf86cd79943914" }, "name": "Newsletter y Fidelización", "description": "Sistema de newsletters segmentados con cupones de descuento para clientes frecuentes.", "img": "https://picsum.photos/seed/green2/600/400", "section": "Marketing", "technologies": ["Mailchimp", "Node.js", "MongoDB"], "link": "https://tiendaverde.com.ar/newsletter" }
+    ]
   },
   {
     "_id": { "$oid": "6507f1f77bcf86cd7994390a" },
     "nombre": "EventosPro",
     "descripcion": "Organización integral de eventos corporativos, congresos y lanzamientos de productos.",
     "foto": "https://i.pravatar.cc/300?img=10",
-    "fechaCreacion": { "$date": "2023-09-01T08:00:00.000Z" }
+    "fechaCreacion": { "$date": "2023-09-01T08:00:00.000Z" },
+    "proyectos": [
+      { "_id": { "$oid": "7607f1f77bcf86cd79943915" }, "name": "Web de Eventos", "description": "Sitio principal con agenda de eventos, formulario de consulta y mapa de sedes.", "img": "https://picsum.photos/seed/event1/600/400", "section": "Web", "technologies": ["React", "Node.js", "MongoDB"], "link": "https://eventospro.com.ar" },
+      { "_id": { "$oid": "7607f1f77bcf86cd79943916" }, "name": "App de Gestión de Eventos", "description": "Aplicación interna para coordinadores con checklist, proveedores y cronograma en tiempo real.", "img": "https://picsum.photos/seed/event2/600/400", "section": "Mobile", "technologies": ["React Native", "Firebase", "Expo"], "link": "https://eventospro.com.ar/app" },
+      { "_id": { "$oid": "7607f1f77bcf86cd79943917" }, "name": "CRM de Clientes", "description": "Plataforma de gestión de clientes corporativos con historial de eventos y seguimiento.", "img": "https://picsum.photos/seed/event3/600/400", "section": "Dashboard", "technologies": ["Vue.js", "Node.js", "PostgreSQL"], "link": "https://eventospro.com.ar/crm" },
+      { "_id": { "$oid": "7607f1f77bcf86cd79943918" }, "name": "Galería de Eventos", "description": "Portal de galerías fotográficas organizadas por evento, con descarga habilitada para asistentes.", "img": "https://picsum.photos/seed/event4/600/400", "section": "Web", "technologies": ["Next.js", "Cloudinary", "Node.js"], "link": "https://eventospro.com.ar/galeria" },
+      { "_id": { "$oid": "7607f1f77bcf86cd79943919" }, "name": "Sistema de Tickets Online", "description": "Venta y validación de entradas para eventos con QR y control de acceso en puerta.", "img": "https://picsum.photos/seed/event5/600/400", "section": "E-commerce", "technologies": ["Next.js", "Stripe", "Node.js", "QRCode.js"], "link": "https://eventospro.com.ar/tickets" }
+    ]
   },
   {
     "_id": { "$oid": "6507f1f77bcf86cd7994390b" },
     "nombre": "Finanzas Claras",
     "descripcion": "Asesoría contable y financiera para emprendedores y empresas en crecimiento.",
     "foto": "https://i.pravatar.cc/300?img=11",
-    "fechaCreacion": { "$date": "2023-09-14T10:00:00.000Z" }
+    "fechaCreacion": { "$date": "2023-09-14T10:00:00.000Z" },
+    "proyectos": [
+      { "_id": { "$oid": "7607f1f77bcf86cd7994391a" }, "name": "Dashboard Financiero", "description": "Panel personalizado para visualizar flujo de caja, balances y proyecciones de clientes.", "img": "https://picsum.photos/seed/fin1/600/400", "section": "Dashboard", "technologies": ["React", "Chart.js", "Node.js", "MongoDB"], "link": "https://finanzasclaras.com.ar/dashboard" }
+    ]
   },
   {
     "_id": { "$oid": "6507f1f77bcf86cd7994390c" },
     "nombre": "Viajes & Aventuras",
     "descripcion": "Agencia de turismo especializada en viajes de aventura y destinos poco convencionales.",
     "foto": "https://i.pravatar.cc/300?img=12",
-    "fechaCreacion": { "$date": "2023-10-02T09:30:00.000Z" }
+    "fechaCreacion": { "$date": "2023-10-02T09:30:00.000Z" },
+    "proyectos": []
   },
   {
     "_id": { "$oid": "6507f1f77bcf86cd7994390d" },
     "nombre": "Productora Musical",
     "descripcion": "Estudio de grabación y producción musical para artistas independientes.",
     "foto": "https://i.pravatar.cc/300?img=13",
-    "fechaCreacion": { "$date": "2023-10-18T11:00:00.000Z" }
+    "fechaCreacion": { "$date": "2023-10-18T11:00:00.000Z" },
+    "proyectos": [
+      { "_id": { "$oid": "7607f1f77bcf86cd7994391b" }, "name": "Sitio Web de la Productora", "description": "Página principal con catálogo de artistas, servicios de estudio y sala de prensa.", "img": "https://picsum.photos/seed/music1/600/400", "section": "Web", "technologies": ["React", "Tailwind CSS", "Sanity CMS"], "link": "https://productoramusical.com.ar" },
+      { "_id": { "$oid": "7607f1f77bcf86cd7994391c" }, "name": "Plataforma de Streaming", "description": "Servicio de escucha de demos y tracks en alta calidad para sellos y managers.", "img": "https://picsum.photos/seed/music2/600/400", "section": "Web", "technologies": ["Next.js", "HLS.js", "Node.js", "AWS S3"], "link": "https://productoramusical.com.ar/streaming" },
+      { "_id": { "$oid": "7607f1f77bcf86cd7994391d" }, "name": "Tienda de Merchandising", "description": "E-commerce de productos oficiales de los artistas del sello con envío a todo el país.", "img": "https://picsum.photos/seed/music3/600/400", "section": "E-commerce", "technologies": ["Next.js", "MercadoPago", "MongoDB"], "link": "https://productoramusical.com.ar/tienda" },
+      { "_id": { "$oid": "7607f1f77bcf86cd7994391e" }, "name": "Agenda de Shows", "description": "Calendario de shows y fechas con venta de entradas integrada y recordatorio por email.", "img": "https://picsum.photos/seed/music4/600/400", "section": "Web", "technologies": ["React", "Google Calendar API", "Node.js"], "link": "https://productoramusical.com.ar/agenda" }
+    ]
   },
   {
     "_id": { "$oid": "6507f1f77bcf86cd7994390e" },
     "nombre": "Librería del Pueblo",
     "descripcion": "Librería y espacio cultural con foco en literatura latinoamericana y autores locales.",
     "foto": "https://i.pravatar.cc/300?img=14",
-    "fechaCreacion": { "$date": "2023-11-05T08:00:00.000Z" }
+    "fechaCreacion": { "$date": "2023-11-05T08:00:00.000Z" },
+    "proyectos": [
+      { "_id": { "$oid": "7607f1f77bcf86cd7994391f" }, "name": "Catálogo Online de Libros", "description": "Buscador de libros por autor, género y disponibilidad con opción de reserva online.", "img": "https://picsum.photos/seed/book1/600/400", "section": "Web", "technologies": ["Vue.js", "Node.js", "MongoDB"], "link": "https://libreriapueblo.com.ar/catalogo" },
+      { "_id": { "$oid": "7607f1f77bcf86cd79943920" }, "name": "Blog de Reseñas Literarias", "description": "Blog con reseñas de libros escritas por el equipo y lectores de la comunidad.", "img": "https://picsum.photos/seed/book2/600/400", "section": "Web", "technologies": ["WordPress", "SEO", "Elementor"], "link": "https://libreriapueblo.com.ar/blog" }
+    ]
   },
   {
     "_id": { "$oid": "6507f1f77bcf86cd7994390f" },
     "nombre": "Farmacia Salud Total",
     "descripcion": "Farmacia comunitaria con servicio de asesoramiento farmacéutico personalizado.",
     "foto": "https://i.pravatar.cc/300?img=15",
-    "fechaCreacion": { "$date": "2023-11-20T09:00:00.000Z" }
+    "fechaCreacion": { "$date": "2023-11-20T09:00:00.000Z" },
+    "proyectos": []
   },
   {
     "_id": { "$oid": "6507f1f77bcf86cd79943910" },
     "nombre": "Automotores Rápido",
     "descripcion": "Concesionaria multimarca y taller mecánico con servicio de posventa.",
     "foto": "https://i.pravatar.cc/300?img=16",
-    "fechaCreacion": { "$date": "2023-12-01T10:00:00.000Z" }
+    "fechaCreacion": { "$date": "2023-12-01T10:00:00.000Z" },
+    "proyectos": [
+      { "_id": { "$oid": "7607f1f77bcf86cd79943921" }, "name": "Sitio Web Concesionaria", "description": "Web con catálogo de vehículos nuevos y usados, comparador y formulario de test drive.", "img": "https://picsum.photos/seed/auto1/600/400", "section": "Web", "technologies": ["React", "Node.js", "MongoDB"], "link": "https://automotoresrapido.com.ar" },
+      { "_id": { "$oid": "7607f1f77bcf86cd79943922" }, "name": "Catálogo de Vehículos", "description": "Módulo de búsqueda avanzada de vehículos con filtros por marca, precio, año y combustible.", "img": "https://picsum.photos/seed/auto2/600/400", "section": "Web", "technologies": ["Vue.js", "Algolia", "Node.js"], "link": "https://automotoresrapido.com.ar/catalogo" },
+      { "_id": { "$oid": "7607f1f77bcf86cd79943923" }, "name": "Turno Online para Taller", "description": "Sistema de reserva de turnos para el taller mecánico con recordatorio por SMS.", "img": "https://picsum.photos/seed/auto3/600/400", "section": "Web", "technologies": ["React", "Node.js", "Twilio", "MongoDB"], "link": "https://automotoresrapido.com.ar/taller" }
+    ]
   },
   {
     "_id": { "$oid": "6507f1f77bcf86cd79943911" },
     "nombre": "Consultoría Legal MG",
     "descripcion": "Estudio jurídico especializado en derecho comercial, laboral y propiedad intelectual.",
     "foto": "https://i.pravatar.cc/300?img=17",
-    "fechaCreacion": { "$date": "2023-12-15T08:30:00.000Z" }
+    "fechaCreacion": { "$date": "2023-12-15T08:30:00.000Z" },
+    "proyectos": [
+      { "_id": { "$oid": "7607f1f77bcf86cd79943924" }, "name": "Web Corporativa del Estudio", "description": "Sitio institucional con áreas de práctica, equipo de abogados y formulario de consulta.", "img": "https://picsum.photos/seed/legal1/600/400", "section": "Web", "technologies": ["React", "Tailwind CSS", "Node.js"], "link": "https://consultorialegal.com.ar" }
+    ]
   },
   {
     "_id": { "$oid": "6507f1f77bcf86cd79943912" },
     "nombre": "Fitness & Vida",
     "descripcion": "Cadena de gimnasios con planes de nutrición y seguimiento personalizado.",
     "foto": "https://i.pravatar.cc/300?img=18",
-    "fechaCreacion": { "$date": "2024-01-08T09:00:00.000Z" }
+    "fechaCreacion": { "$date": "2024-01-08T09:00:00.000Z" },
+    "proyectos": [
+      { "_id": { "$oid": "7607f1f77bcf86cd79943925" }, "name": "Sitio Web Gimnasio", "description": "Web institucional con planes de membresía, horarios de clases y galería de instalaciones.", "img": "https://picsum.photos/seed/gym1/600/400", "section": "Web", "technologies": ["React", "Tailwind CSS", "Node.js"], "link": "https://fitnessvida.com.ar" },
+      { "_id": { "$oid": "7607f1f77bcf86cd79943926" }, "name": "App de Rutinas", "description": "Aplicación móvil para seguimiento de rutinas, progreso y comunicación con el entrenador.", "img": "https://picsum.photos/seed/gym2/600/400", "section": "Mobile", "technologies": ["React Native", "Firebase", "Expo"], "link": "https://fitnessvida.com.ar/app" },
+      { "_id": { "$oid": "7607f1f77bcf86cd79943927" }, "name": "Tienda de Suplementos", "description": "E-commerce de suplementos y ropa deportiva con envío en 24 hs en CABA.", "img": "https://picsum.photos/seed/gym3/600/400", "section": "E-commerce", "technologies": ["Next.js", "MercadoPago", "MongoDB"], "link": "https://fitnessvida.com.ar/tienda" },
+      { "_id": { "$oid": "7607f1f77bcf86cd79943928" }, "name": "Blog de Nutrición", "description": "Blog con recetas saludables, artículos de nutricionistas y planes de alimentación descargables.", "img": "https://picsum.photos/seed/gym4/600/400", "section": "Marketing", "technologies": ["WordPress", "SEO", "Google Analytics"], "link": "https://fitnessvida.com.ar/blog" },
+      { "_id": { "$oid": "7607f1f77bcf86cd79943929" }, "name": "Sistema de Reservas de Clases", "description": "Módulo online para reservar clases grupales con cupos limitados y lista de espera.", "img": "https://picsum.photos/seed/gym5/600/400", "section": "Web", "technologies": ["Vue.js", "Node.js", "MongoDB"], "link": "https://fitnessvida.com.ar/reservas" }
+    ]
   },
   {
     "_id": { "$oid": "6507f1f77bcf86cd79943913" },
     "nombre": "Pet Friends",
     "descripcion": "Veterinaria, peluquería canina y tienda de accesorios para mascotas.",
     "foto": "https://i.pravatar.cc/300?img=19",
-    "fechaCreacion": { "$date": "2024-01-22T10:00:00.000Z" }
+    "fechaCreacion": { "$date": "2024-01-22T10:00:00.000Z" },
+    "proyectos": [
+      { "_id": { "$oid": "7607f1f77bcf86cd7994392a" }, "name": "Sitio Web Veterinaria", "description": "Web con servicios, equipo veterinario, horarios y consejos de cuidado para mascotas.", "img": "https://picsum.photos/seed/pet1/600/400", "section": "Web", "technologies": ["React", "Tailwind CSS", "Node.js"], "link": "https://petfriends.com.ar" },
+      { "_id": { "$oid": "7607f1f77bcf86cd7994392b" }, "name": "Tienda de Accesorios", "description": "E-commerce de productos para mascotas con sección por especie y entrega a domicilio.", "img": "https://picsum.photos/seed/pet2/600/400", "section": "E-commerce", "technologies": ["Next.js", "MercadoPago", "Sanity CMS"], "link": "https://petfriends.com.ar/tienda" }
+    ]
   },
   {
     "_id": { "$oid": "6507f1f77bcf86cd79943914" },
     "nombre": "Galería de Arte",
     "descripcion": "Espacio de exhibición y venta de arte contemporáneo argentino y latinoamericano.",
     "foto": "https://i.pravatar.cc/300?img=20",
-    "fechaCreacion": { "$date": "2024-02-05T11:00:00.000Z" }
+    "fechaCreacion": { "$date": "2024-02-05T11:00:00.000Z" },
+    "proyectos": []
   },
   {
     "_id": { "$oid": "6507f1f77bcf86cd79943915" },
     "nombre": "Inmobiliaria del Centro",
     "descripcion": "Agencia inmobiliaria con más de 15 años gestionando compra, venta y alquiler.",
     "foto": "https://i.pravatar.cc/300?img=21",
-    "fechaCreacion": { "$date": "2024-02-19T08:00:00.000Z" }
+    "fechaCreacion": { "$date": "2024-02-19T08:00:00.000Z" },
+    "proyectos": [
+      { "_id": { "$oid": "7607f1f77bcf86cd7994392c" }, "name": "Web Inmobiliaria", "description": "Sitio principal con búsqueda de propiedades, mapa interactivo y perfil de asesores.", "img": "https://picsum.photos/seed/real1/600/400", "section": "Web", "technologies": ["Next.js", "Leaflet.js", "Node.js", "MongoDB"], "link": "https://inmobiliariadelcentro.com.ar" },
+      { "_id": { "$oid": "7607f1f77bcf86cd7994392d" }, "name": "Buscador de Propiedades", "description": "Motor de búsqueda avanzado con filtros por zona, precio, ambientes y tipo de operación.", "img": "https://picsum.photos/seed/real2/600/400", "section": "Web", "technologies": ["React", "Algolia", "Node.js"], "link": "https://inmobiliariadelcentro.com.ar/buscar" },
+      { "_id": { "$oid": "7607f1f77bcf86cd7994392e" }, "name": "CRM Inmobiliario", "description": "Sistema interno para gestión de leads, seguimiento de visitas y pipeline de ventas.", "img": "https://picsum.photos/seed/real3/600/400", "section": "Dashboard", "technologies": ["Vue.js", "Node.js", "PostgreSQL", "Chart.js"], "link": "https://inmobiliariadelcentro.com.ar/crm" }
+    ]
   },
   {
     "_id": { "$oid": "6507f1f77bcf86cd79943916" },
     "nombre": "Startup Innova",
     "descripcion": "Startup de tecnología enfocada en soluciones de inteligencia artificial para retail.",
     "foto": "https://i.pravatar.cc/300?img=22",
-    "fechaCreacion": { "$date": "2024-03-04T09:30:00.000Z" }
+    "fechaCreacion": { "$date": "2024-03-04T09:30:00.000Z" },
+    "proyectos": [
+      { "_id": { "$oid": "7607f1f77bcf86cd7994392f" }, "name": "Landing Page de Lanzamiento", "description": "Landing page para la captación de early adopters con lista de espera y demo interactiva.", "img": "https://picsum.photos/seed/startup1/600/400", "section": "Web", "technologies": ["React", "Tailwind CSS", "Framer Motion"], "link": "https://startupinnova.com.ar" },
+      { "_id": { "$oid": "7607f1f77bcf86cd79943930" }, "name": "MVP de la Plataforma IA", "description": "Primera versión funcional del producto con módulo de recomendaciones para retail.", "img": "https://picsum.photos/seed/startup2/600/400", "section": "Dashboard", "technologies": ["Python", "FastAPI", "React", "MongoDB", "OpenAI API"], "link": "https://startupinnova.com.ar/app" }
+    ]
   }
 ]

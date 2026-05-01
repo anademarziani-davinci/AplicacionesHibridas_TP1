@@ -7,16 +7,16 @@ const coleccion = "projects";
 
 const db = client.db(nombredb);
 
-export async function crearProyecto(proyecto) 
-{
+export async function crearProyecto(proyecto) {
   try {
     await client.connect();
     proyecto._id = new ObjectId();
+    proyecto.fechaCreacion = new Date();
     await db.collection(coleccion).insertOne(proyecto);
     return proyecto;
   } catch (err) {
     console.error("Error al crear proyecto:", err);
-    throw new Error (err);
+    throw new Error(err);
   }
 }
 

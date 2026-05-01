@@ -171,7 +171,21 @@ main {
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.card-client {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-top: 0.75rem;
+  border-top: 1px solid #e5e5e5;
+}
+
+.card-client-name {
+  font-size: 12px;
+  font-weight: 500;
+  color: #555;
 }
 
 .tag {
