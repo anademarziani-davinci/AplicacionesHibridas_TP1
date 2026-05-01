@@ -1,0 +1,816 @@
+{
+  "info": {
+    "_postman_id": "21b8eb4c-d929-477e-8321-5da8d6952e38",
+    "name": "APLICACIONESHIBRIDAS_TP1",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "54264886",
+    "_collection_link": "https://go.postman.co/collection/54264886-21b8eb4c-d929-477e-8321-5da8d6952e38?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Projectos",
+      "item": [
+        {
+          "name": "/api/proyectos",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n\t\"name\": \"Nombre del proyecto\",\r\n\t\"description\": \"Descripcion del proyecto\",\r\n\t\"link\": \"http://miweb.com/proyecto\",\r\n\t\"img\": \"https://picsum.photos/400/225\",\r\n\t\"technologies\": [\"PHP\", \"Vue\", \"Laravel\"],\r\n\t\"section\": \"mobile2\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{APIURL}}api/proyectos",
+              "host": [
+                "{{APIURL}}api"
+              ],
+              "path": [
+                "proyectos"
+              ]
+            }
+          },
+          "response": [
+            {
+              "name": "Ejemplo de creacion",
+              "originalRequest": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n\t\"name\": \"Nombre del proyecto\",\r\n\t\"description\": \"Descripcion del proyecto\",\r\n\t\"link\": \"http://miweb.com/proyecto\",\r\n\t\"img\": \"https://picsum.photos/400/225\",\r\n\t\"technologies\": [\"PHP\", \"Vue\", \"Laravel\"],\r\n\t\"section\": \"mobile2\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{APIURL}}api/proyectos",
+                  "host": [
+                    "{{APIURL}}api"
+                  ],
+                  "path": [
+                    "proyectos"
+                  ]
+                }
+              },
+              "status": "Created",
+              "code": 201,
+              "_postman_previewlanguage": null,
+              "header": [
+                {
+                  "key": "X-Powered-By",
+                  "value": "Express"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json; charset=utf-8"
+                },
+                {
+                  "key": "Content-Length",
+                  "value": "236"
+                },
+                {
+                  "key": "ETag",
+                  "value": "W/\"ec-POxlvejmUS5FrPAwaoRC+quX3N0\""
+                },
+                {
+                  "key": "Date",
+                  "value": "Fri, 01 May 2026 20:21:11 GMT"
+                },
+                {
+                  "key": "Connection",
+                  "value": "keep-alive"
+                },
+                {
+                  "key": "Keep-Alive",
+                  "value": "timeout=5"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n    \"name\": \"Nombre del proyecto\",\n    \"description\": \"Descripcion del proyecto\",\n    \"link\": \"http://miweb.com/proyecto\",\n    \"img\": \"https://picsum.photos/400/225\",\n    \"technologies\": [\n        \"PHP\",\n        \"Vue\",\n        \"Laravel\"\n    ],\n    \"section\": \"mobile2\",\n    \"_id\": \"69f50b3730c317f0463f3b13\"\n}"
+            }
+          ]
+        },
+        {
+          "name": "/api/proyectos",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n\t\"name\": \"Nombre del proyecto\",\r\n\t\"description\": \"Descripcion del proyecto\",\r\n\t\"link\": \"http://miweb.com/proyecto\",\r\n\t\"img\": \"https://picsum.photos/400/225\",\r\n\t\"technologies\": [\"PHP\", \"Vue\", \"Laravel\"],\r\n\t\"section\": \"mobile3\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{APIURL}}api/proyectos/69e9fd0d8320f2382f6629f2",
+              "host": [
+                "{{APIURL}}api"
+              ],
+              "path": [
+                "proyectos",
+                "69e9fd0d8320f2382f6629f2"
+              ]
+            }
+          },
+          "response": [
+            {
+              "name": "Ejemplo de actualizacion",
+              "originalRequest": {
+                "method": "PUT",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n\t\"name\": \"Nombre del proyecto\",\r\n\t\"description\": \"Descripcion del proyecto\",\r\n\t\"link\": \"http://miweb.com/proyecto\",\r\n\t\"img\": \"https://picsum.photos/400/225\",\r\n\t\"technologies\": [\"PHP\", \"Vue\", \"Laravel\"],\r\n\t\"section\": \"mobile3\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{APIURL}}api/proyectos/69f50b3730c317f0463f3b13",
+                  "host": [
+                    "{{APIURL}}api"
+                  ],
+                  "path": [
+                    "proyectos",
+                    "69f50b3730c317f0463f3b13"
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": null,
+              "header": [
+                {
+                  "key": "X-Powered-By",
+                  "value": "Express"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json; charset=utf-8"
+                },
+                {
+                  "key": "Content-Length",
+                  "value": "66"
+                },
+                {
+                  "key": "ETag",
+                  "value": "W/\"42-Id/GCIEPgAIVWnSJa1Wjtdo5VQI\""
+                },
+                {
+                  "key": "Date",
+                  "value": "Fri, 01 May 2026 20:23:58 GMT"
+                },
+                {
+                  "key": "Connection",
+                  "value": "keep-alive"
+                },
+                {
+                  "key": "Keep-Alive",
+                  "value": "timeout=5"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n    \"message\": \"Proyecto con id 69f50b3730c317f0463f3b13 actualizado\"\n}"
+            }
+          ]
+        },
+        {
+          "name": "/api/proyectos",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n\t\"name\": \"Nombre del proyecto\",\r\n\t\"description\": \"Descripcion del proyecto\",\r\n\t\"link\": \"http://miweb.com/proyecto\",\r\n\t\"img\": \"https://picsum.photos/400/225\",\r\n\t\"technologies\": [\"PHP\", \"Vue\", \"Laravel\"],\r\n\t\"section\": \"mobile3\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{APIURL}}/api/proyectos/69eaa4b542c76bb054f104ee",
+              "host": [
+                "{{APIURL}}"
+              ],
+              "path": [
+                "api",
+                "proyectos",
+                "69eaa4b542c76bb054f104ee"
+              ]
+            }
+          },
+          "response": [
+            {
+              "name": "Ejemplo eliminacion",
+              "originalRequest": {
+                "method": "DELETE",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n\t\"name\": \"Nombre del proyecto\",\r\n\t\"description\": \"Descripcion del proyecto\",\r\n\t\"link\": \"http://miweb.com/proyecto\",\r\n\t\"img\": \"https://picsum.photos/400/225\",\r\n\t\"technologies\": [\"PHP\", \"Vue\", \"Laravel\"],\r\n\t\"section\": \"mobile3\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{APIURL}}api/proyectos/69f50b3730c317f0463f3b13",
+                  "host": [
+                    "{{APIURL}}api"
+                  ],
+                  "path": [
+                    "proyectos",
+                    "69f50b3730c317f0463f3b13"
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": null,
+              "header": [
+                {
+                  "key": "X-Powered-By",
+                  "value": "Express"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json; charset=utf-8"
+                },
+                {
+                  "key": "Content-Length",
+                  "value": "64"
+                },
+                {
+                  "key": "ETag",
+                  "value": "W/\"40-/Deob5LfTDy2UR2dofGGG9wkjpw\""
+                },
+                {
+                  "key": "Date",
+                  "value": "Fri, 01 May 2026 20:27:47 GMT"
+                },
+                {
+                  "key": "Connection",
+                  "value": "keep-alive"
+                },
+                {
+                  "key": "Keep-Alive",
+                  "value": "timeout=5"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n    \"message\": \"Proyecto con id 69f50b3730c317f0463f3b13 eliminado\"\n}"
+            }
+          ]
+        },
+        {
+          "name": "/api/proyectos?nombre=X&seccion=mobile",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \r\n}"
+            },
+            "url": {
+              "raw": "{{APIURL}}api/proyectos?nombre=Nombre&seccion=mobile",
+              "host": [
+                "{{APIURL}}api"
+              ],
+              "path": [
+                "proyectos"
+              ],
+              "query": [
+                {
+                  "key": "nombre",
+                  "value": "Nombre"
+                },
+                {
+                  "key": "seccion",
+                  "value": "mobile"
+                }
+              ]
+            }
+          },
+          "response": [
+            {
+              "name": "EjemploObtener",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \r\n}"
+                },
+                "url": {
+                  "raw": "{{APIURL}}api/proyectos?nombre=Nombre&seccion=mobile3",
+                  "host": [
+                    "{{APIURL}}api"
+                  ],
+                  "path": [
+                    "proyectos"
+                  ],
+                  "query": [
+                    {
+                      "key": "nombre",
+                      "value": "Nombre"
+                    },
+                    {
+                      "key": "seccion",
+                      "value": "mobile3"
+                    }
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": null,
+              "header": [
+                {
+                  "key": "X-Powered-By",
+                  "value": "Express"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json; charset=utf-8"
+                },
+                {
+                  "key": "Content-Length",
+                  "value": "270"
+                },
+                {
+                  "key": "ETag",
+                  "value": "W/\"10e-rRf8feQhrhqdME3UGTLiTcFHOpM\""
+                },
+                {
+                  "key": "Date",
+                  "value": "Fri, 01 May 2026 20:24:59 GMT"
+                },
+                {
+                  "key": "Connection",
+                  "value": "keep-alive"
+                },
+                {
+                  "key": "Keep-Alive",
+                  "value": "timeout=5"
+                }
+              ],
+              "cookie": [],
+              "body": "[\n    {\n        \"_id\": \"69f50b3730c317f0463f3b13\",\n        \"name\": \"Nombre del proyecto\",\n        \"description\": \"Descripcion del proyecto\",\n        \"link\": \"http://miweb.com/proyecto\",\n        \"img\": \"https://picsum.photos/400/225\",\n        \"technologies\": [\n            \"PHP\",\n            \"Vue\",\n            \"Laravel\"\n        ],\n        \"section\": \"mobile3\",\n        \"id\": \"69f50b3730c317f0463f3b13\"\n    }\n]"
+            }
+          ]
+        },
+        {
+          "name": "/api/proyectos",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{APIURL}}api/proyectos",
+              "host": [
+                "{{APIURL}}api"
+              ],
+              "path": [
+                "proyectos"
+              ]
+            }
+          },
+          "response": [
+            {
+              "name": "ejemplo obtener",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{APIURL}}api/proyectos",
+                  "host": [
+                    "{{APIURL}}api"
+                  ],
+                  "path": [
+                    "proyectos"
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": null,
+              "header": [
+                {
+                  "key": "X-Powered-By",
+                  "value": "Express"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json; charset=utf-8"
+                },
+                {
+                  "key": "Content-Length",
+                  "value": "18109"
+                },
+                {
+                  "key": "ETag",
+                  "value": "W/\"46bd-BJuPblmDgPreuxwV7DuJHkn9v9g\""
+                },
+                {
+                  "key": "Date",
+                  "value": "Fri, 01 May 2026 20:25:28 GMT"
+                },
+                {
+                  "key": "Connection",
+                  "value": "keep-alive"
+                },
+                {
+                  "key": "Keep-Alive",
+                  "value": "timeout=5"
+                }
+              ],
+              "cookie": [],
+              "body": "[\n    {\n        \"_id\": \"7607f1f77bcf86cd79943901\",\n        \"clienteId\": \"6507f1f77bcf86cd79943901\",\n        \"name\": \"Rediseño de Identidad Visual\",\n        \"description\": \"Renovación completa de la marca, incluyendo logo, paleta de colores y manual de uso.\",\n        \"link\": \"https://agenciacreativa.com.ar/identidad\",\n        \"img\": \"https://picsum.photos/seed/brand1/600/400\",\n        \"technologies\": [\n            \"Figma\",\n            \"Illustrator\",\n            \"Photoshop\"\n        ],\n        \"section\": \"Branding\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd79943902\",\n        \"clienteId\": \"6507f1f77bcf86cd79943901\",\n        \"name\": \"Sitio Web Corporativo\",\n        \"description\": \"Desarrollo del sitio institucional con portafolio de proyectos y formulario de contacto.\",\n        \"link\": \"https://agenciacreativa.com.ar\",\n        \"img\": \"https://picsum.photos/seed/web1/600/400\",\n        \"technologies\": [\n            \"React\",\n            \"Tailwind CSS\",\n            \"Node.js\"\n        ],\n        \"section\": \"Web\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd79943903\",\n        \"clienteId\": \"6507f1f77bcf86cd79943901\",\n        \"name\": \"Campaña Redes Sociales\",\n        \"description\": \"Estrategia de contenido y diseño de piezas para Instagram, LinkedIn y Facebook.\",\n        \"link\": \"https://agenciacreativa.com.ar/social\",\n        \"img\": \"https://picsum.photos/seed/social1/600/400\",\n        \"technologies\": [\n            \"Canva Pro\",\n            \"Adobe Express\",\n            \"Hootsuite\"\n        ],\n        \"section\": \"Marketing\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd79943904\",\n        \"clienteId\": \"6507f1f77bcf86cd79943902\",\n        \"name\": \"ERP Interno\",\n        \"description\": \"Sistema de gestión de recursos empresariales con módulos de RRHH, finanzas y logística.\",\n        \"link\": \"https://techsoluciones.com.ar/erp\",\n        \"img\": \"https://picsum.photos/seed/erp1/600/400\",\n        \"technologies\": [\n            \"Vue.js\",\n            \"Node.js\",\n            \"PostgreSQL\",\n            \"Docker\"\n        ],\n        \"section\": \"Dashboard\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd79943905\",\n        \"clienteId\": \"6507f1f77bcf86cd79943902\",\n        \"name\": \"App de Gestión de Turnos\",\n        \"description\": \"Aplicación móvil para reserva y administración de turnos para clientes internos.\",\n        \"link\": \"https://techsoluciones.com.ar/turnos\",\n        \"img\": \"https://picsum.photos/seed/mobile1/600/400\",\n        \"technologies\": [\n            \"React Native\",\n            \"Expo\",\n            \"Firebase\"\n        ],\n        \"section\": \"Mobile\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd79943906\",\n        \"clienteId\": \"6507f1f77bcf86cd79943902\",\n        \"name\": \"API REST de Facturación\",\n        \"description\": \"Microservicio de facturación electrónica integrado con AFIP y sistemas de terceros.\",\n        \"link\": \"https://techsoluciones.com.ar/api\",\n        \"img\": \"https://picsum.photos/seed/api1/600/400\",\n        \"technologies\": [\n            \"Node.js\",\n            \"Express\",\n            \"MongoDB\",\n            \"JWT\"\n        ],\n        \"section\": \"Web\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd79943907\",\n        \"clienteId\": \"6507f1f77bcf86cd79943902\",\n        \"name\": \"E-commerce B2B\",\n        \"description\": \"Plataforma de compras para clientes corporativos con catálogo privado y cotizaciones.\",\n        \"link\": \"https://techsoluciones.com.ar/shop\",\n        \"img\": \"https://picsum.photos/seed/ecom1/600/400\",\n        \"technologies\": [\n            \"Next.js\",\n            \"Stripe\",\n            \"MongoDB\",\n            \"Redis\"\n        ],\n        \"section\": \"E-commerce\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd79943908\",\n        \"clienteId\": \"6507f1f77bcf86cd79943902\",\n        \"name\": \"Dashboard de Métricas\",\n        \"description\": \"Panel de control en tiempo real para monitoreo de KPIs operativos y financieros.\",\n        \"link\": \"https://techsoluciones.com.ar/dashboard\",\n        \"img\": \"https://picsum.photos/seed/dash1/600/400\",\n        \"technologies\": [\n            \"React\",\n            \"Chart.js\",\n            \"WebSockets\",\n            \"Node.js\"\n        ],\n        \"section\": \"Dashboard\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd79943909\",\n        \"clienteId\": \"6507f1f77bcf86cd79943903\",\n        \"name\": \"Tienda Online\",\n        \"description\": \"E-commerce completo con catálogo de temporada, carrito y pagos con MercadoPago.\",\n        \"link\": \"https://modaestiloba.com.ar/shop\",\n        \"img\": \"https://picsum.photos/seed/fashion1/600/400\",\n        \"technologies\": [\n            \"Next.js\",\n            \"MercadoPago\",\n            \"Sanity CMS\"\n        ],\n        \"section\": \"E-commerce\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd7994390a\",\n        \"clienteId\": \"6507f1f77bcf86cd79943903\",\n        \"name\": \"Lookbook Digital\",\n        \"description\": \"Catálogo interactivo de colecciones con galería de fotos y ficha de cada prenda.\",\n        \"link\": \"https://modaestiloba.com.ar/lookbook\",\n        \"img\": \"https://picsum.photos/seed/fashion2/600/400\",\n        \"technologies\": [\n            \"HTML\",\n            \"CSS\",\n            \"GSAP\"\n        ],\n        \"section\": \"Diseño\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd7994390b\",\n        \"clienteId\": \"6507f1f77bcf86cd79943905\",\n        \"name\": \"Sitio Web Clínica\",\n        \"description\": \"Web institucional con presentación de especialidades, equipo médico y ubicación.\",\n        \"link\": \"https://clinicabienestar.com.ar\",\n        \"img\": \"https://picsum.photos/seed/clinic1/600/400\",\n        \"technologies\": [\n            \"React\",\n            \"CSS Modules\",\n            \"Node.js\"\n        ],\n        \"section\": \"Web\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd7994390c\",\n        \"clienteId\": \"6507f1f77bcf86cd79943905\",\n        \"name\": \"App de Citas Médicas\",\n        \"description\": \"Aplicación para solicitar y gestionar turnos médicos con recordatorios por WhatsApp.\",\n        \"link\": \"https://clinicabienestar.com.ar/turnos\",\n        \"img\": \"https://picsum.photos/seed/clinic2/600/400\",\n        \"technologies\": [\n            \"React Native\",\n            \"Node.js\",\n            \"MongoDB\",\n            \"Twilio\"\n        ],\n        \"section\": \"Mobile\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd7994390d\",\n        \"clienteId\": \"6507f1f77bcf86cd79943905\",\n        \"name\": \"Portal de Pacientes\",\n        \"description\": \"Plataforma web donde los pacientes acceden a sus resultados, recetas y historial.\",\n        \"link\": \"https://clinicabienestar.com.ar/portal\",\n        \"img\": \"https://picsum.photos/seed/clinic3/600/400\",\n        \"technologies\": [\n            \"Vue.js\",\n            \"Node.js\",\n            \"PostgreSQL\"\n        ],\n        \"section\": \"Dashboard\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd7994390e\",\n        \"clienteId\": \"6507f1f77bcf86cd79943905\",\n        \"name\": \"Blog de Salud\",\n        \"description\": \"Blog institucional con artículos de bienestar y consejos de los profesionales de la clínica.\",\n        \"link\": \"https://clinicabienestar.com.ar/blog\",\n        \"img\": \"https://picsum.photos/seed/clinic4/600/400\",\n        \"technologies\": [\n            \"WordPress\",\n            \"Elementor\",\n            \"SEO\"\n        ],\n        \"section\": \"Web\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd7994390f\",\n        \"clienteId\": \"6507f1f77bcf86cd79943906\",\n        \"name\": \"Portfolio Fotográfico\",\n        \"description\": \"Sitio portfolio con galerías por categoría, formulario de cotización y bio del fotógrafo.\",\n        \"link\": \"https://estudioluz.com.ar\",\n        \"img\": \"https://picsum.photos/seed/photo1/600/400\",\n        \"technologies\": [\n            \"HTML\",\n            \"CSS\",\n            \"JavaScript\",\n            \"Lightgallery.js\"\n        ],\n        \"section\": \"Diseño\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd79943910\",\n        \"clienteId\": \"6507f1f77bcf86cd79943907\",\n        \"name\": \"Sitio Corporativo\",\n        \"description\": \"Web institucional con historia de la empresa, servicios y galería de obras realizadas.\",\n        \"link\": \"https://constructoradelnorte.com.ar\",\n        \"img\": \"https://picsum.photos/seed/const1/600/400\",\n        \"technologies\": [\n            \"React\",\n            \"Tailwind CSS\"\n        ],\n        \"section\": \"Web\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd79943911\",\n        \"clienteId\": \"6507f1f77bcf86cd79943907\",\n        \"name\": \"Catálogo de Obras\",\n        \"description\": \"Catálogo interactivo de proyectos terminados con filtros por tipo, zona y año.\",\n        \"link\": \"https://constructoradelnorte.com.ar/obras\",\n        \"img\": \"https://picsum.photos/seed/const2/600/400\",\n        \"technologies\": [\n            \"Vue.js\",\n            \"Leaflet.js\",\n            \"Node.js\"\n        ],\n        \"section\": \"Web\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd79943912\",\n        \"clienteId\": \"6507f1f77bcf86cd79943907\",\n        \"name\": \"Calculadora de Presupuesto\",\n        \"description\": \"Herramienta online para que clientes estimen el costo de su obra ingresando sus datos.\",\n        \"link\": \"https://constructoradelnorte.com.ar/presupuesto\",\n        \"img\": \"https://picsum.photos/seed/const3/600/400\",\n        \"technologies\": [\n            \"JavaScript\",\n            \"HTML\",\n            \"CSS\"\n        ],\n        \"section\": \"Web\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd79943913\",\n        \"clienteId\": \"6507f1f77bcf86cd79943909\",\n        \"name\": \"E-commerce Ecológico\",\n        \"description\": \"Tienda online de productos orgánicos con filtros por categoría y certificaciones.\",\n        \"link\": \"https://tiendaverde.com.ar\",\n        \"img\": \"https://picsum.photos/seed/green1/600/400\",\n        \"technologies\": [\n            \"Next.js\",\n            \"MercadoPago\",\n            \"MongoDB\"\n        ],\n        \"section\": \"E-commerce\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd79943914\",\n        \"clienteId\": \"6507f1f77bcf86cd79943909\",\n        \"name\": \"Newsletter y Fidelización\",\n        \"description\": \"Sistema de newsletters segmentados con cupones de descuento para clientes frecuentes.\",\n        \"link\": \"https://tiendaverde.com.ar/newsletter\",\n        \"img\": \"https://picsum.photos/seed/green2/600/400\",\n        \"technologies\": [\n            \"Mailchimp\",\n            \"Node.js\",\n            \"MongoDB\"\n        ],\n        \"section\": \"Marketing\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd79943915\",\n        \"clienteId\": \"6507f1f77bcf86cd7994390a\",\n        \"name\": \"Web de Eventos\",\n        \"description\": \"Sitio principal con agenda de eventos, formulario de consulta y mapa de sedes.\",\n        \"link\": \"https://eventospro.com.ar\",\n        \"img\": \"https://picsum.photos/seed/event1/600/400\",\n        \"technologies\": [\n            \"React\",\n            \"Node.js\",\n            \"MongoDB\"\n        ],\n        \"section\": \"Web\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd79943916\",\n        \"clienteId\": \"6507f1f77bcf86cd7994390a\",\n        \"name\": \"App de Gestión de Eventos\",\n        \"description\": \"Aplicación interna para coordinadores con checklist, proveedores y cronograma en tiempo real.\",\n        \"link\": \"https://eventospro.com.ar/app\",\n        \"img\": \"https://picsum.photos/seed/event2/600/400\",\n        \"technologies\": [\n            \"React Native\",\n            \"Firebase\",\n            \"Expo\"\n        ],\n        \"section\": \"Mobile\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd79943917\",\n        \"clienteId\": \"6507f1f77bcf86cd7994390a\",\n        \"name\": \"CRM de Clientes\",\n        \"description\": \"Plataforma de gestión de clientes corporativos con historial de eventos y seguimiento.\",\n        \"link\": \"https://eventospro.com.ar/crm\",\n        \"img\": \"https://picsum.photos/seed/event3/600/400\",\n        \"technologies\": [\n            \"Vue.js\",\n            \"Node.js\",\n            \"PostgreSQL\"\n        ],\n        \"section\": \"Dashboard\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd79943918\",\n        \"clienteId\": \"6507f1f77bcf86cd7994390a\",\n        \"name\": \"Galería de Eventos\",\n        \"description\": \"Portal de galerías fotográficas organizadas por evento, con descarga habilitada para asistentes.\",\n        \"link\": \"https://eventospro.com.ar/galeria\",\n        \"img\": \"https://picsum.photos/seed/event4/600/400\",\n        \"technologies\": [\n            \"Next.js\",\n            \"Cloudinary\",\n            \"Node.js\"\n        ],\n        \"section\": \"Web\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd79943919\",\n        \"clienteId\": \"6507f1f77bcf86cd7994390a\",\n        \"name\": \"Sistema de Tickets Online\",\n        \"description\": \"Venta y validación de entradas para eventos con QR y control de acceso en puerta.\",\n        \"link\": \"https://eventospro.com.ar/tickets\",\n        \"img\": \"https://picsum.photos/seed/event5/600/400\",\n        \"technologies\": [\n            \"Next.js\",\n            \"Stripe\",\n            \"Node.js\",\n            \"QRCode.js\"\n        ],\n        \"section\": \"E-commerce\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd7994391a\",\n        \"clienteId\": \"6507f1f77bcf86cd7994390b\",\n        \"name\": \"Dashboard Financiero\",\n        \"description\": \"Panel personalizado para visualizar flujo de caja, balances y proyecciones de clientes.\",\n        \"link\": \"https://finanzasclaras.com.ar/dashboard\",\n        \"img\": \"https://picsum.photos/seed/fin1/600/400\",\n        \"technologies\": [\n            \"React\",\n            \"Chart.js\",\n            \"Node.js\",\n            \"MongoDB\"\n        ],\n        \"section\": \"Dashboard\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd7994391b\",\n        \"clienteId\": \"6507f1f77bcf86cd7994390d\",\n        \"name\": \"Sitio Web de la Productora\",\n        \"description\": \"Página principal con catálogo de artistas, servicios de estudio y sala de prensa.\",\n        \"link\": \"https://productoramusical.com.ar\",\n        \"img\": \"https://picsum.photos/seed/music1/600/400\",\n        \"technologies\": [\n            \"React\",\n            \"Tailwind CSS\",\n            \"Sanity CMS\"\n        ],\n        \"section\": \"Web\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd7994391c\",\n        \"clienteId\": \"6507f1f77bcf86cd7994390d\",\n        \"name\": \"Plataforma de Streaming\",\n        \"description\": \"Servicio de escucha de demos y tracks en alta calidad para sellos y managers.\",\n        \"link\": \"https://productoramusical.com.ar/streaming\",\n        \"img\": \"https://picsum.photos/seed/music2/600/400\",\n        \"technologies\": [\n            \"Next.js\",\n            \"HLS.js\",\n            \"Node.js\",\n            \"AWS S3\"\n        ],\n        \"section\": \"Web\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd7994391d\",\n        \"clienteId\": \"6507f1f77bcf86cd7994390d\",\n        \"name\": \"Tienda de Merchandising\",\n        \"description\": \"E-commerce de productos oficiales de los artistas del sello con envío a todo el país.\",\n        \"link\": \"https://productoramusical.com.ar/tienda\",\n        \"img\": \"https://picsum.photos/seed/music3/600/400\",\n        \"technologies\": [\n            \"Next.js\",\n            \"MercadoPago\",\n            \"MongoDB\"\n        ],\n        \"section\": \"E-commerce\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd7994391e\",\n        \"clienteId\": \"6507f1f77bcf86cd7994390d\",\n        \"name\": \"Agenda de Shows\",\n        \"description\": \"Calendario de shows y fechas con venta de entradas integrada y recordatorio por email.\",\n        \"link\": \"https://productoramusical.com.ar/agenda\",\n        \"img\": \"https://picsum.photos/seed/music4/600/400\",\n        \"technologies\": [\n            \"React\",\n            \"Google Calendar API\",\n            \"Node.js\"\n        ],\n        \"section\": \"Web\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd7994391f\",\n        \"clienteId\": \"6507f1f77bcf86cd7994390e\",\n        \"name\": \"Catálogo Online de Libros\",\n        \"description\": \"Buscador de libros por autor, género y disponibilidad con opción de reserva online.\",\n        \"link\": \"https://libreriapueblo.com.ar/catalogo\",\n        \"img\": \"https://picsum.photos/seed/book1/600/400\",\n        \"technologies\": [\n            \"Vue.js\",\n            \"Node.js\",\n            \"MongoDB\"\n        ],\n        \"section\": \"Web\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd79943920\",\n        \"clienteId\": \"6507f1f77bcf86cd7994390e\",\n        \"name\": \"Blog de Reseñas Literarias\",\n        \"description\": \"Blog con reseñas de libros escritas por el equipo y lectores de la comunidad.\",\n        \"link\": \"https://libreriapueblo.com.ar/blog\",\n        \"img\": \"https://picsum.photos/seed/book2/600/400\",\n        \"technologies\": [\n            \"WordPress\",\n            \"SEO\",\n            \"Elementor\"\n        ],\n        \"section\": \"Web\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd79943921\",\n        \"clienteId\": \"6507f1f77bcf86cd79943910\",\n        \"name\": \"Sitio Web Concesionaria\",\n        \"description\": \"Web con catálogo de vehículos nuevos y usados, comparador y formulario de test drive.\",\n        \"link\": \"https://automotoresrapido.com.ar\",\n        \"img\": \"https://picsum.photos/seed/auto1/600/400\",\n        \"technologies\": [\n            \"React\",\n            \"Node.js\",\n            \"MongoDB\"\n        ],\n        \"section\": \"Web\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd79943922\",\n        \"clienteId\": \"6507f1f77bcf86cd79943910\",\n        \"name\": \"Catálogo de Vehículos\",\n        \"description\": \"Módulo de búsqueda avanzada de vehículos con filtros por marca, precio, año y combustible.\",\n        \"link\": \"https://automotoresrapido.com.ar/catalogo\",\n        \"img\": \"https://picsum.photos/seed/auto2/600/400\",\n        \"technologies\": [\n            \"Vue.js\",\n            \"Algolia\",\n            \"Node.js\"\n        ],\n        \"section\": \"Web\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd79943923\",\n        \"clienteId\": \"6507f1f77bcf86cd79943910\",\n        \"name\": \"Turno Online para Taller\",\n        \"description\": \"Sistema de reserva de turnos para el taller mecánico con recordatorio por SMS.\",\n        \"link\": \"https://automotoresrapido.com.ar/taller\",\n        \"img\": \"https://picsum.photos/seed/auto3/600/400\",\n        \"technologies\": [\n            \"React\",\n            \"Node.js\",\n            \"Twilio\",\n            \"MongoDB\"\n        ],\n        \"section\": \"Web\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd79943924\",\n        \"clienteId\": \"6507f1f77bcf86cd79943911\",\n        \"name\": \"Web Corporativa del Estudio\",\n        \"description\": \"Sitio institucional con áreas de práctica, equipo de abogados y formulario de consulta.\",\n        \"link\": \"https://consultorialegal.com.ar\",\n        \"img\": \"https://picsum.photos/seed/legal1/600/400\",\n        \"technologies\": [\n            \"React\",\n            \"Tailwind CSS\",\n            \"Node.js\"\n        ],\n        \"section\": \"Web\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd79943925\",\n        \"clienteId\": \"6507f1f77bcf86cd79943912\",\n        \"name\": \"Sitio Web Gimnasio\",\n        \"description\": \"Web institucional con planes de membresía, horarios de clases y galería de instalaciones.\",\n        \"link\": \"https://fitnessvida.com.ar\",\n        \"img\": \"https://picsum.photos/seed/gym1/600/400\",\n        \"technologies\": [\n            \"React\",\n            \"Tailwind CSS\",\n            \"Node.js\"\n        ],\n        \"section\": \"Web\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd79943926\",\n        \"clienteId\": \"6507f1f77bcf86cd79943912\",\n        \"name\": \"App de Rutinas\",\n        \"description\": \"Aplicación móvil para seguimiento de rutinas, progreso y comunicación con el entrenador.\",\n        \"link\": \"https://fitnessvida.com.ar/app\",\n        \"img\": \"https://picsum.photos/seed/gym2/600/400\",\n        \"technologies\": [\n            \"React Native\",\n            \"Firebase\",\n            \"Expo\"\n        ],\n        \"section\": \"Mobile\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd79943927\",\n        \"clienteId\": \"6507f1f77bcf86cd79943912\",\n        \"name\": \"Tienda de Suplementos\",\n        \"description\": \"E-commerce de suplementos y ropa deportiva con envío en 24 hs en CABA.\",\n        \"link\": \"https://fitnessvida.com.ar/tienda\",\n        \"img\": \"https://picsum.photos/seed/gym3/600/400\",\n        \"technologies\": [\n            \"Next.js\",\n            \"MercadoPago\",\n            \"MongoDB\"\n        ],\n        \"section\": \"E-commerce\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd79943928\",\n        \"clienteId\": \"6507f1f77bcf86cd79943912\",\n        \"name\": \"Blog de Nutrición\",\n        \"description\": \"Blog con recetas saludables, artículos de nutricionistas y planes de alimentación descargables.\",\n        \"link\": \"https://fitnessvida.com.ar/blog\",\n        \"img\": \"https://picsum.photos/seed/gym4/600/400\",\n        \"technologies\": [\n            \"WordPress\",\n            \"SEO\",\n            \"Google Analytics\"\n        ],\n        \"section\": \"Marketing\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd79943929\",\n        \"clienteId\": \"6507f1f77bcf86cd79943912\",\n        \"name\": \"Sistema de Reservas de Clases\",\n        \"description\": \"Módulo online para reservar clases grupales con cupos limitados y lista de espera.\",\n        \"link\": \"https://fitnessvida.com.ar/reservas\",\n        \"img\": \"https://picsum.photos/seed/gym5/600/400\",\n        \"technologies\": [\n            \"Vue.js\",\n            \"Node.js\",\n            \"MongoDB\"\n        ],\n        \"section\": \"Web\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd7994392a\",\n        \"clienteId\": \"6507f1f77bcf86cd79943913\",\n        \"name\": \"Sitio Web Veterinaria\",\n        \"description\": \"Web con servicios, equipo veterinario, horarios y consejos de cuidado para mascotas.\",\n        \"link\": \"https://petfriends.com.ar\",\n        \"img\": \"https://picsum.photos/seed/pet1/600/400\",\n        \"technologies\": [\n            \"React\",\n            \"Tailwind CSS\",\n            \"Node.js\"\n        ],\n        \"section\": \"Web\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd7994392b\",\n        \"clienteId\": \"6507f1f77bcf86cd79943913\",\n        \"name\": \"Tienda de Accesorios\",\n        \"description\": \"E-commerce de productos para mascotas con sección por especie y entrega a domicilio.\",\n        \"link\": \"https://petfriends.com.ar/tienda\",\n        \"img\": \"https://picsum.photos/seed/pet2/600/400\",\n        \"technologies\": [\n            \"Next.js\",\n            \"MercadoPago\",\n            \"Sanity CMS\"\n        ],\n        \"section\": \"E-commerce\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd7994392c\",\n        \"clienteId\": \"6507f1f77bcf86cd79943915\",\n        \"name\": \"Web Inmobiliaria\",\n        \"description\": \"Sitio principal con búsqueda de propiedades, mapa interactivo y perfil de asesores.\",\n        \"link\": \"https://inmobiliariadelcentro.com.ar\",\n        \"img\": \"https://picsum.photos/seed/real1/600/400\",\n        \"technologies\": [\n            \"Next.js\",\n            \"Leaflet.js\",\n            \"Node.js\",\n            \"MongoDB\"\n        ],\n        \"section\": \"Web\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd7994392d\",\n        \"clienteId\": \"6507f1f77bcf86cd79943915\",\n        \"name\": \"Buscador de Propiedades\",\n        \"description\": \"Motor de búsqueda avanzado con filtros por zona, precio, ambientes y tipo de operación.\",\n        \"link\": \"https://inmobiliariadelcentro.com.ar/buscar\",\n        \"img\": \"https://picsum.photos/seed/real2/600/400\",\n        \"technologies\": [\n            \"React\",\n            \"Algolia\",\n            \"Node.js\"\n        ],\n        \"section\": \"Web\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd7994392e\",\n        \"clienteId\": \"6507f1f77bcf86cd79943915\",\n        \"name\": \"CRM Inmobiliario\",\n        \"description\": \"Sistema interno para gestión de leads, seguimiento de visitas y pipeline de ventas.\",\n        \"link\": \"https://inmobiliariadelcentro.com.ar/crm\",\n        \"img\": \"https://picsum.photos/seed/real3/600/400\",\n        \"technologies\": [\n            \"Vue.js\",\n            \"Node.js\",\n            \"PostgreSQL\",\n            \"Chart.js\"\n        ],\n        \"section\": \"Dashboard\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd7994392f\",\n        \"clienteId\": \"6507f1f77bcf86cd79943916\",\n        \"name\": \"Landing Page de Lanzamiento\",\n        \"description\": \"Landing page para la captación de early adopters con lista de espera y demo interactiva.\",\n        \"link\": \"https://startupinnova.com.ar\",\n        \"img\": \"https://picsum.photos/seed/startup1/600/400\",\n        \"technologies\": [\n            \"React\",\n            \"Tailwind CSS\",\n            \"Framer Motion\"\n        ],\n        \"section\": \"Web\"\n    },\n    {\n        \"_id\": \"7607f1f77bcf86cd79943930\",\n        \"clienteId\": \"6507f1f77bcf86cd79943916\",\n        \"name\": \"MVP de la Plataforma IA\",\n        \"description\": \"Primera versión funcional del producto con módulo de recomendaciones para retail.\",\n        \"link\": \"https://startupinnova.com.ar/app\",\n        \"img\": \"https://picsum.photos/seed/startup2/600/400\",\n        \"technologies\": [\n            \"Python\",\n            \"FastAPI\",\n            \"React\",\n            \"MongoDB\",\n            \"OpenAI API\"\n        ],\n        \"section\": \"Dashboard\"\n    },\n    {\n        \"_id\": \"69f50b3730c317f0463f3b13\",\n        \"name\": \"Nombre del proyecto\",\n        \"description\": \"Descripcion del proyecto\",\n        \"link\": \"http://miweb.com/proyecto\",\n        \"img\": \"https://picsum.photos/400/225\",\n        \"technologies\": [\n            \"PHP\",\n            \"Vue\",\n            \"Laravel\"\n        ],\n        \"section\": \"mobile3\",\n        \"id\": \"69f50b3730c317f0463f3b13\"\n    }\n]"
+            }
+          ]
+        },
+        {
+          "name": "/api/proyectos:id",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \r\n}"
+            },
+            "url": {
+              "raw": "{{APIURL}}api/proyectos/69e9fd0d8320f2382f6629f2",
+              "host": [
+                "{{APIURL}}api"
+              ],
+              "path": [
+                "proyectos",
+                "69e9fd0d8320f2382f6629f2"
+              ]
+            }
+          },
+          "response": [
+            {
+              "name": "ejemplo por id",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \r\n}"
+                },
+                "url": {
+                  "raw": "{{APIURL}}api/proyectos/69f50b3730c317f0463f3b13",
+                  "host": [
+                    "{{APIURL}}api"
+                  ],
+                  "path": [
+                    "proyectos",
+                    "69f50b3730c317f0463f3b13"
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": null,
+              "header": [
+                {
+                  "key": "X-Powered-By",
+                  "value": "Express"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json; charset=utf-8"
+                },
+                {
+                  "key": "Content-Length",
+                  "value": "268"
+                },
+                {
+                  "key": "ETag",
+                  "value": "W/\"10c-cTGtKFyrVem/h+6+PYc3Yi/1SJU\""
+                },
+                {
+                  "key": "Date",
+                  "value": "Fri, 01 May 2026 20:25:53 GMT"
+                },
+                {
+                  "key": "Connection",
+                  "value": "keep-alive"
+                },
+                {
+                  "key": "Keep-Alive",
+                  "value": "timeout=5"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n    \"_id\": \"69f50b3730c317f0463f3b13\",\n    \"name\": \"Nombre del proyecto\",\n    \"description\": \"Descripcion del proyecto\",\n    \"link\": \"http://miweb.com/proyecto\",\n    \"img\": \"https://picsum.photos/400/225\",\n    \"technologies\": [\n        \"PHP\",\n        \"Vue\",\n        \"Laravel\"\n    ],\n    \"section\": \"mobile3\",\n    \"id\": \"69f50b3730c317f0463f3b13\"\n}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Clientes",
+      "item": [
+        {
+          "name": "/api/clientes",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{APIURL}}api/clientes",
+              "host": [
+                "{{APIURL}}api"
+              ],
+              "path": [
+                "clientes"
+              ]
+            }
+          },
+          "response": [
+            {
+              "name": "Ejemplo obtener clientes",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{APIURL}}api/clientes",
+                  "host": [
+                    "{{APIURL}}api"
+                  ],
+                  "path": [
+                    "clientes"
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": null,
+              "header": [
+                {
+                  "key": "X-Powered-By",
+                  "value": "Express"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json; charset=utf-8"
+                },
+                {
+                  "key": "Content-Length",
+                  "value": "5352"
+                },
+                {
+                  "key": "ETag",
+                  "value": "W/\"14e8-wccIW4T8z0eM8LAPyHGGssJ/BiQ\""
+                },
+                {
+                  "key": "Date",
+                  "value": "Fri, 01 May 2026 20:26:32 GMT"
+                },
+                {
+                  "key": "Connection",
+                  "value": "keep-alive"
+                },
+                {
+                  "key": "Keep-Alive",
+                  "value": "timeout=5"
+                }
+              ],
+              "cookie": [],
+              "body": "[\n    {\n        \"_id\": \"6507f1f77bcf86cd79943901\",\n        \"nombre\": \"Agencia Creativa AR\",\n        \"descripcion\": \"Estudio de diseño y comunicación especializado en identidad visual y campañas digitales.\",\n        \"foto\": \"https://i.pravatar.cc/300?img=1\",\n        \"fechaCreacion\": \"2023-03-12T09:00:00.000Z\"\n    },\n    {\n        \"_id\": \"6507f1f77bcf86cd79943902\",\n        \"nombre\": \"TechSoluciones SA\",\n        \"descripcion\": \"Empresa de desarrollo de software a medida para pymes y corporaciones.\",\n        \"foto\": \"https://i.pravatar.cc/300?img=2\",\n        \"fechaCreacion\": \"2023-04-05T10:30:00.000Z\"\n    },\n    {\n        \"_id\": \"6507f1f77bcf86cd79943903\",\n        \"nombre\": \"Moda & Estilo BA\",\n        \"descripcion\": \"Tienda de ropa y accesorios de diseño independiente con presencia online.\",\n        \"foto\": \"https://i.pravatar.cc/300?img=3\",\n        \"fechaCreacion\": \"2023-05-18T08:00:00.000Z\"\n    },\n    {\n        \"_id\": \"6507f1f77bcf86cd79943904\",\n        \"nombre\": \"Restaurante El Sabor\",\n        \"descripcion\": \"Gastronomía de autor con enfoque en productos locales y de temporada.\",\n        \"foto\": \"https://i.pravatar.cc/300?img=4\",\n        \"fechaCreacion\": \"2023-06-01T12:00:00.000Z\"\n    },\n    {\n        \"_id\": \"6507f1f77bcf86cd79943905\",\n        \"nombre\": \"Clínica Bienestar\",\n        \"descripcion\": \"Centro médico integral con especialidades en kinesiología, nutrición y psicología.\",\n        \"foto\": \"https://i.pravatar.cc/300?img=5\",\n        \"fechaCreacion\": \"2023-06-20T09:00:00.000Z\"\n    },\n    {\n        \"_id\": \"6507f1f77bcf86cd79943906\",\n        \"nombre\": \"Estudio Luz\",\n        \"descripcion\": \"Fotografía profesional para marcas, eventos corporativos y retratos.\",\n        \"foto\": \"https://i.pravatar.cc/300?img=6\",\n        \"fechaCreacion\": \"2023-07-08T11:00:00.000Z\"\n    },\n    {\n        \"_id\": \"6507f1f77bcf86cd79943907\",\n        \"nombre\": \"Constructora del Norte\",\n        \"descripcion\": \"Empresa constructora con más de 20 años de experiencia en obra civil y arquitectura.\",\n        \"foto\": \"https://i.pravatar.cc/300?img=7\",\n        \"fechaCreacion\": \"2023-07-22T08:30:00.000Z\"\n    },\n    {\n        \"_id\": \"6507f1f77bcf86cd79943908\",\n        \"nombre\": \"Academia Digital\",\n        \"descripcion\": \"Plataforma de formación online en programación, diseño y marketing.\",\n        \"foto\": \"https://i.pravatar.cc/300?img=8\",\n        \"fechaCreacion\": \"2023-08-03T10:00:00.000Z\"\n    },\n    {\n        \"_id\": \"6507f1f77bcf86cd79943909\",\n        \"nombre\": \"Tienda Verde\",\n        \"descripcion\": \"Comercio de productos ecológicos, orgánicos y de comercio justo.\",\n        \"foto\": \"https://i.pravatar.cc/300?img=9\",\n        \"fechaCreacion\": \"2023-08-15T09:00:00.000Z\"\n    },\n    {\n        \"_id\": \"6507f1f77bcf86cd7994390a\",\n        \"nombre\": \"EventosPro\",\n        \"descripcion\": \"Organización integral de eventos corporativos, congresos y lanzamientos de productos.\",\n        \"foto\": \"https://i.pravatar.cc/300?img=10\",\n        \"fechaCreacion\": \"2023-09-01T08:00:00.000Z\"\n    },\n    {\n        \"_id\": \"6507f1f77bcf86cd7994390b\",\n        \"nombre\": \"Finanzas Claras\",\n        \"descripcion\": \"Asesoría contable y financiera para emprendedores y empresas en crecimiento.\",\n        \"foto\": \"https://i.pravatar.cc/300?img=11\",\n        \"fechaCreacion\": \"2023-09-14T10:00:00.000Z\"\n    },\n    {\n        \"_id\": \"6507f1f77bcf86cd7994390c\",\n        \"nombre\": \"Viajes & Aventuras\",\n        \"descripcion\": \"Agencia de turismo especializada en viajes de aventura y destinos poco convencionales.\",\n        \"foto\": \"https://i.pravatar.cc/300?img=12\",\n        \"fechaCreacion\": \"2023-10-02T09:30:00.000Z\"\n    },\n    {\n        \"_id\": \"6507f1f77bcf86cd7994390d\",\n        \"nombre\": \"Productora Musical\",\n        \"descripcion\": \"Estudio de grabación y producción musical para artistas independientes.\",\n        \"foto\": \"https://i.pravatar.cc/300?img=13\",\n        \"fechaCreacion\": \"2023-10-18T11:00:00.000Z\"\n    },\n    {\n        \"_id\": \"6507f1f77bcf86cd7994390e\",\n        \"nombre\": \"Librería del Pueblo\",\n        \"descripcion\": \"Librería y espacio cultural con foco en literatura latinoamericana y autores locales.\",\n        \"foto\": \"https://i.pravatar.cc/300?img=14\",\n        \"fechaCreacion\": \"2023-11-05T08:00:00.000Z\"\n    },\n    {\n        \"_id\": \"6507f1f77bcf86cd7994390f\",\n        \"nombre\": \"Farmacia Salud Total\",\n        \"descripcion\": \"Farmacia comunitaria con servicio de asesoramiento farmacéutico personalizado.\",\n        \"foto\": \"https://i.pravatar.cc/300?img=15\",\n        \"fechaCreacion\": \"2023-11-20T09:00:00.000Z\"\n    },\n    {\n        \"_id\": \"6507f1f77bcf86cd79943910\",\n        \"nombre\": \"Automotores Rápido\",\n        \"descripcion\": \"Concesionaria multimarca y taller mecánico con servicio de posventa.\",\n        \"foto\": \"https://i.pravatar.cc/300?img=16\",\n        \"fechaCreacion\": \"2023-12-01T10:00:00.000Z\"\n    },\n    {\n        \"_id\": \"6507f1f77bcf86cd79943911\",\n        \"nombre\": \"Consultoría Legal MG\",\n        \"descripcion\": \"Estudio jurídico especializado en derecho comercial, laboral y propiedad intelectual.\",\n        \"foto\": \"https://i.pravatar.cc/300?img=17\",\n        \"fechaCreacion\": \"2023-12-15T08:30:00.000Z\"\n    },\n    {\n        \"_id\": \"6507f1f77bcf86cd79943912\",\n        \"nombre\": \"Fitness & Vida\",\n        \"descripcion\": \"Cadena de gimnasios con planes de nutrición y seguimiento personalizado.\",\n        \"foto\": \"https://i.pravatar.cc/300?img=18\",\n        \"fechaCreacion\": \"2024-01-08T09:00:00.000Z\"\n    },\n    {\n        \"_id\": \"6507f1f77bcf86cd79943913\",\n        \"nombre\": \"Pet Friends\",\n        \"descripcion\": \"Veterinaria, peluquería canina y tienda de accesorios para mascotas.\",\n        \"foto\": \"https://i.pravatar.cc/300?img=19\",\n        \"fechaCreacion\": \"2024-01-22T10:00:00.000Z\"\n    },\n    {\n        \"_id\": \"6507f1f77bcf86cd79943914\",\n        \"nombre\": \"Galería de Arte\",\n        \"descripcion\": \"Espacio de exhibición y venta de arte contemporáneo argentino y latinoamericano.\",\n        \"foto\": \"https://i.pravatar.cc/300?img=20\",\n        \"fechaCreacion\": \"2024-02-05T11:00:00.000Z\"\n    },\n    {\n        \"_id\": \"6507f1f77bcf86cd79943915\",\n        \"nombre\": \"Inmobiliaria del Centro\",\n        \"descripcion\": \"Agencia inmobiliaria con más de 15 años gestionando compra, venta y alquiler.\",\n        \"foto\": \"https://i.pravatar.cc/300?img=21\",\n        \"fechaCreacion\": \"2024-02-19T08:00:00.000Z\"\n    },\n    {\n        \"_id\": \"6507f1f77bcf86cd79943916\",\n        \"nombre\": \"Startup Innova\",\n        \"descripcion\": \"Startup de tecnología enfocada en soluciones de inteligencia artificial para retail.\",\n        \"foto\": \"https://i.pravatar.cc/300?img=22\",\n        \"fechaCreacion\": \"2024-03-04T09:30:00.000Z\"\n    }\n]"
+            }
+          ]
+        },
+        {
+          "name": "/api/clientes",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"nombre\" : \"Juan del pueblo\",\r\n    \"foto\" : \"http://picsum.photos/400/225\",\r\n    \"descripcion\" : \"Soy un usuario\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{APIURL}}api/clientes",
+              "host": [
+                "{{APIURL}}api"
+              ],
+              "path": [
+                "clientes"
+              ]
+            }
+          },
+          "response": [
+            {
+              "name": "/api/clientes",
+              "originalRequest": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"nombre\" : \"Juan del pueblo\",\r\n    \"foto\" : \"http://picsum.photos/400/225\",\r\n    \"descripcion\" : \"Soy un usuario\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{APIRUL}}/api/clientes",
+                  "host": [
+                    "{{APIRUL}}"
+                  ],
+                  "path": [
+                    "api",
+                    "clientes"
+                  ]
+                }
+              },
+              "status": "Created",
+              "code": 201,
+              "_postman_previewlanguage": "Text",
+              "header": [
+                {
+                  "key": "X-Powered-By",
+                  "value": "Express"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json; charset=utf-8"
+                },
+                {
+                  "key": "Content-Length",
+                  "value": "173"
+                },
+                {
+                  "key": "ETag",
+                  "value": "W/\"ad-FJPOhkbDB5ysThezHTFdJ14CFA8\""
+                },
+                {
+                  "key": "Date",
+                  "value": "Thu, 23 Apr 2026 11:56:34 GMT"
+                },
+                {
+                  "key": "Connection",
+                  "value": "keep-alive"
+                },
+                {
+                  "key": "Keep-Alive",
+                  "value": "timeout=5"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n    \"_id\": \"69ea08f2341c57f2bdd41091\",\n    \"nombre\": \"Juan del pueblo\",\n    \"foto\": \"http://picsum.photos/400/225\",\n    \"descripcion\": \"Soy un usuario\",\n    \"fechaCreacion\": \"2026-04-23T11:56:34.543Z\"\n}"
+            }
+          ]
+        },
+        {
+          "name": "/api/clientes/:id/proyectos",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n\t\"name\": \"Nombre del proyecto para cliente\",\r\n\t\"description\": \"Descripcion del proyecto\",\r\n\t\"link\": \"http://miweb.com/proyecto\",\r\n\t\"img\": \"https://picsum.photos/400/225\",\r\n\t\"technologies\": [\"PHP\", \"Vue\", \"Laravel\"],\r\n\t\"section\": \"mobile2\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{APIURL}}api/clientes/69ea08f2341c57f2bdd41091/proyectos",
+              "host": [
+                "{{APIURL}}api"
+              ],
+              "path": [
+                "clientes",
+                "69ea08f2341c57f2bdd41091",
+                "proyectos"
+              ]
+            }
+          },
+          "response": [
+            {
+              "name": "Ejemplo obtener clientes por id",
+              "originalRequest": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n\t\"name\": \"Nombre del proyecto para cliente\",\r\n\t\"description\": \"Descripcion del proyecto\",\r\n\t\"link\": \"http://miweb.com/proyecto\",\r\n\t\"img\": \"https://picsum.photos/400/225\",\r\n\t\"technologies\": [\"PHP\", \"Vue\", \"Laravel\"],\r\n\t\"section\": \"mobile2\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{APIURL}}api/clientes/69ea08f2341c57f2bdd41091/proyectos",
+                  "host": [
+                    "{{APIURL}}api"
+                  ],
+                  "path": [
+                    "clientes",
+                    "69ea08f2341c57f2bdd41091",
+                    "proyectos"
+                  ]
+                }
+              },
+              "status": "Created",
+              "code": 201,
+              "_postman_previewlanguage": null,
+              "header": [
+                {
+                  "key": "X-Powered-By",
+                  "value": "Express"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json; charset=utf-8"
+                },
+                {
+                  "key": "Content-Length",
+                  "value": "331"
+                },
+                {
+                  "key": "ETag",
+                  "value": "W/\"14b-vwsdyE9BtrHnDxlifIhJWgRiw4E\""
+                },
+                {
+                  "key": "Date",
+                  "value": "Fri, 01 May 2026 20:26:52 GMT"
+                },
+                {
+                  "key": "Connection",
+                  "value": "keep-alive"
+                },
+                {
+                  "key": "Keep-Alive",
+                  "value": "timeout=5"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n    \"name\": \"Nombre del proyecto para cliente\",\n    \"description\": \"Descripcion del proyecto\",\n    \"link\": \"http://miweb.com/proyecto\",\n    \"img\": \"https://picsum.photos/400/225\",\n    \"technologies\": [\n        \"PHP\",\n        \"Vue\",\n        \"Laravel\"\n    ],\n    \"section\": \"mobile2\",\n    \"_id\": \"69f50c8c30c317f0463f3b14\",\n    \"clienteId\": \"69ea08f2341c57f2bdd41091\",\n    \"fechaCreacion\": \"2026-05-01T20:26:52.540Z\"\n}"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "APIURL",
+      "value": ""
+    }
+  ]
+}

@@ -21,7 +21,7 @@ export function crearListaClientes(clientes, title) {
         <tr>
           <td>
             ${cliente.foto
-              ? `<img class="avatar" src="/${cliente.foto}" alt="${cliente.nombre}" />`
+              ? `<img class="avatar" src="${cliente.foto}" alt="${cliente.nombre}" />`
               : `<div class="avatar-placeholder">—</div>`
             }
           </td>
