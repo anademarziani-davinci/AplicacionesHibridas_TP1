@@ -1,0 +1,19 @@
+{
+  "name": "DWM4AV-DemarzianiAna",
+  "version": "1.0.0",
+  "description": "",
+    "type": "module",
+  "main": "app/main.js",
+
+  "scripts": {
+    "dev": "nodemon app/main.js",
+    "start": "node app/main.js"
+  },
+  "devDependencies": {
+    "nodemon": "3.1.14"
+  },
+  "dependencies": {
+    "express": "5.2.1",
+    "mongodb": "7.1.1"
+  }
+}

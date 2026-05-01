@@ -1,0 +1,482 @@
+[
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd79943901" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd79943901" },
+    "name": "Rediseño de Identidad Visual",
+    "description": "Renovación completa de la marca, incluyendo logo, paleta de colores y manual de uso.",
+    "link": "https://agenciacreativa.com.ar/identidad",
+    "img": "https://picsum.photos/seed/brand1/600/400",
+    "technologies": ["Figma", "Illustrator", "Photoshop"],
+    "section": "Branding"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd79943902" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd79943901" },
+    "name": "Sitio Web Corporativo",
+    "description": "Desarrollo del sitio institucional con portafolio de proyectos y formulario de contacto.",
+    "link": "https://agenciacreativa.com.ar",
+    "img": "https://picsum.photos/seed/web1/600/400",
+    "technologies": ["React", "Tailwind CSS", "Node.js"],
+    "section": "Web"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd79943903" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd79943901" },
+    "name": "Campaña Redes Sociales",
+    "description": "Estrategia de contenido y diseño de piezas para Instagram, LinkedIn y Facebook.",
+    "link": "https://agenciacreativa.com.ar/social",
+    "img": "https://picsum.photos/seed/social1/600/400",
+    "technologies": ["Canva Pro", "Adobe Express", "Hootsuite"],
+    "section": "Marketing"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd79943904" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd79943902" },
+    "name": "ERP Interno",
+    "description": "Sistema de gestión de recursos empresariales con módulos de RRHH, finanzas y logística.",
+    "link": "https://techsoluciones.com.ar/erp",
+    "img": "https://picsum.photos/seed/erp1/600/400",
+    "technologies": ["Vue.js", "Node.js", "PostgreSQL", "Docker"],
+    "section": "Dashboard"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd79943905" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd79943902" },
+    "name": "App de Gestión de Turnos",
+    "description": "Aplicación móvil para reserva y administración de turnos para clientes internos.",
+    "link": "https://techsoluciones.com.ar/turnos",
+    "img": "https://picsum.photos/seed/mobile1/600/400",
+    "technologies": ["React Native", "Expo", "Firebase"],
+    "section": "Mobile"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd79943906" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd79943902" },
+    "name": "API REST de Facturación",
+    "description": "Microservicio de facturación electrónica integrado con AFIP y sistemas de terceros.",
+    "link": "https://techsoluciones.com.ar/api",
+    "img": "https://picsum.photos/seed/api1/600/400",
+    "technologies": ["Node.js", "Express", "MongoDB", "JWT"],
+    "section": "Web"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd79943907" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd79943902" },
+    "name": "E-commerce B2B",
+    "description": "Plataforma de compras para clientes corporativos con catálogo privado y cotizaciones.",
+    "link": "https://techsoluciones.com.ar/shop",
+    "img": "https://picsum.photos/seed/ecom1/600/400",
+    "technologies": ["Next.js", "Stripe", "MongoDB", "Redis"],
+    "section": "E-commerce"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd79943908" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd79943902" },
+    "name": "Dashboard de Métricas",
+    "description": "Panel de control en tiempo real para monitoreo de KPIs operativos y financieros.",
+    "link": "https://techsoluciones.com.ar/dashboard",
+    "img": "https://picsum.photos/seed/dash1/600/400",
+    "technologies": ["React", "Chart.js", "WebSockets", "Node.js"],
+    "section": "Dashboard"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd79943909" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd79943903" },
+    "name": "Tienda Online",
+    "description": "E-commerce completo con catálogo de temporada, carrito y pagos con MercadoPago.",
+    "link": "https://modaestiloba.com.ar/shop",
+    "img": "https://picsum.photos/seed/fashion1/600/400",
+    "technologies": ["Next.js", "MercadoPago", "Sanity CMS"],
+    "section": "E-commerce"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd7994390a" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd79943903" },
+    "name": "Lookbook Digital",
+    "description": "Catálogo interactivo de colecciones con galería de fotos y ficha de cada prenda.",
+    "link": "https://modaestiloba.com.ar/lookbook",
+    "img": "https://picsum.photos/seed/fashion2/600/400",
+    "technologies": ["HTML", "CSS", "GSAP"],
+    "section": "Diseño"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd7994390b" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd79943905" },
+    "name": "Sitio Web Clínica",
+    "description": "Web institucional con presentación de especialidades, equipo médico y ubicación.",
+    "link": "https://clinicabienestar.com.ar",
+    "img": "https://picsum.photos/seed/clinic1/600/400",
+    "technologies": ["React", "CSS Modules", "Node.js"],
+    "section": "Web"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd7994390c" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd79943905" },
+    "name": "App de Citas Médicas",
+    "description": "Aplicación para solicitar y gestionar turnos médicos con recordatorios por WhatsApp.",
+    "link": "https://clinicabienestar.com.ar/turnos",
+    "img": "https://picsum.photos/seed/clinic2/600/400",
+    "technologies": ["React Native", "Node.js", "MongoDB", "Twilio"],
+    "section": "Mobile"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd7994390d" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd79943905" },
+    "name": "Portal de Pacientes",
+    "description": "Plataforma web donde los pacientes acceden a sus resultados, recetas y historial.",
+    "link": "https://clinicabienestar.com.ar/portal",
+    "img": "https://picsum.photos/seed/clinic3/600/400",
+    "technologies": ["Vue.js", "Node.js", "PostgreSQL"],
+    "section": "Dashboard"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd7994390e" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd79943905" },
+    "name": "Blog de Salud",
+    "description": "Blog institucional con artículos de bienestar y consejos de los profesionales de la clínica.",
+    "link": "https://clinicabienestar.com.ar/blog",
+    "img": "https://picsum.photos/seed/clinic4/600/400",
+    "technologies": ["WordPress", "Elementor", "SEO"],
+    "section": "Web"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd7994390f" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd79943906" },
+    "name": "Portfolio Fotográfico",
+    "description": "Sitio portfolio con galerías por categoría, formulario de cotización y bio del fotógrafo.",
+    "link": "https://estudioluz.com.ar",
+    "img": "https://picsum.photos/seed/photo1/600/400",
+    "technologies": ["HTML", "CSS", "JavaScript", "Lightgallery.js"],
+    "section": "Diseño"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd79943910" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd79943907" },
+    "name": "Sitio Corporativo",
+    "description": "Web institucional con historia de la empresa, servicios y galería de obras realizadas.",
+    "link": "https://constructoradelnorte.com.ar",
+    "img": "https://picsum.photos/seed/const1/600/400",
+    "technologies": ["React", "Tailwind CSS"],
+    "section": "Web"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd79943911" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd79943907" },
+    "name": "Catálogo de Obras",
+    "description": "Catálogo interactivo de proyectos terminados con filtros por tipo, zona y año.",
+    "link": "https://constructoradelnorte.com.ar/obras",
+    "img": "https://picsum.photos/seed/const2/600/400",
+    "technologies": ["Vue.js", "Leaflet.js", "Node.js"],
+    "section": "Web"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd79943912" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd79943907" },
+    "name": "Calculadora de Presupuesto",
+    "description": "Herramienta online para que clientes estimen el costo de su obra ingresando sus datos.",
+    "link": "https://constructoradelnorte.com.ar/presupuesto",
+    "img": "https://picsum.photos/seed/const3/600/400",
+    "technologies": ["JavaScript", "HTML", "CSS"],
+    "section": "Web"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd79943913" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd79943909" },
+    "name": "E-commerce Ecológico",
+    "description": "Tienda online de productos orgánicos con filtros por categoría y certificaciones.",
+    "link": "https://tiendaverde.com.ar",
+    "img": "https://picsum.photos/seed/green1/600/400",
+    "technologies": ["Next.js", "MercadoPago", "MongoDB"],
+    "section": "E-commerce"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd79943914" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd79943909" },
+    "name": "Newsletter y Fidelización",
+    "description": "Sistema de newsletters segmentados con cupones de descuento para clientes frecuentes.",
+    "link": "https://tiendaverde.com.ar/newsletter",
+    "img": "https://picsum.photos/seed/green2/600/400",
+    "technologies": ["Mailchimp", "Node.js", "MongoDB"],
+    "section": "Marketing"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd79943915" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd7994390a" },
+    "name": "Web de Eventos",
+    "description": "Sitio principal con agenda de eventos, formulario de consulta y mapa de sedes.",
+    "link": "https://eventospro.com.ar",
+    "img": "https://picsum.photos/seed/event1/600/400",
+    "technologies": ["React", "Node.js", "MongoDB"],
+    "section": "Web"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd79943916" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd7994390a" },
+    "name": "App de Gestión de Eventos",
+    "description": "Aplicación interna para coordinadores con checklist, proveedores y cronograma en tiempo real.",
+    "link": "https://eventospro.com.ar/app",
+    "img": "https://picsum.photos/seed/event2/600/400",
+    "technologies": ["React Native", "Firebase", "Expo"],
+    "section": "Mobile"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd79943917" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd7994390a" },
+    "name": "CRM de Clientes",
+    "description": "Plataforma de gestión de clientes corporativos con historial de eventos y seguimiento.",
+    "link": "https://eventospro.com.ar/crm",
+    "img": "https://picsum.photos/seed/event3/600/400",
+    "technologies": ["Vue.js", "Node.js", "PostgreSQL"],
+    "section": "Dashboard"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd79943918" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd7994390a" },
+    "name": "Galería de Eventos",
+    "description": "Portal de galerías fotográficas organizadas por evento, con descarga habilitada para asistentes.",
+    "link": "https://eventospro.com.ar/galeria",
+    "img": "https://picsum.photos/seed/event4/600/400",
+    "technologies": ["Next.js", "Cloudinary", "Node.js"],
+    "section": "Web"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd79943919" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd7994390a" },
+    "name": "Sistema de Tickets Online",
+    "description": "Venta y validación de entradas para eventos con QR y control de acceso en puerta.",
+    "link": "https://eventospro.com.ar/tickets",
+    "img": "https://picsum.photos/seed/event5/600/400",
+    "technologies": ["Next.js", "Stripe", "Node.js", "QRCode.js"],
+    "section": "E-commerce"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd7994391a" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd7994390b" },
+    "name": "Dashboard Financiero",
+    "description": "Panel personalizado para visualizar flujo de caja, balances y proyecciones de clientes.",
+    "link": "https://finanzasclaras.com.ar/dashboard",
+    "img": "https://picsum.photos/seed/fin1/600/400",
+    "technologies": ["React", "Chart.js", "Node.js", "MongoDB"],
+    "section": "Dashboard"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd7994391b" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd7994390d" },
+    "name": "Sitio Web de la Productora",
+    "description": "Página principal con catálogo de artistas, servicios de estudio y sala de prensa.",
+    "link": "https://productoramusical.com.ar",
+    "img": "https://picsum.photos/seed/music1/600/400",
+    "technologies": ["React", "Tailwind CSS", "Sanity CMS"],
+    "section": "Web"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd7994391c" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd7994390d" },
+    "name": "Plataforma de Streaming",
+    "description": "Servicio de escucha de demos y tracks en alta calidad para sellos y managers.",
+    "link": "https://productoramusical.com.ar/streaming",
+    "img": "https://picsum.photos/seed/music2/600/400",
+    "technologies": ["Next.js", "HLS.js", "Node.js", "AWS S3"],
+    "section": "Web"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd7994391d" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd7994390d" },
+    "name": "Tienda de Merchandising",
+    "description": "E-commerce de productos oficiales de los artistas del sello con envío a todo el país.",
+    "link": "https://productoramusical.com.ar/tienda",
+    "img": "https://picsum.photos/seed/music3/600/400",
+    "technologies": ["Next.js", "MercadoPago", "MongoDB"],
+    "section": "E-commerce"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd7994391e" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd7994390d" },
+    "name": "Agenda de Shows",
+    "description": "Calendario de shows y fechas con venta de entradas integrada y recordatorio por email.",
+    "link": "https://productoramusical.com.ar/agenda",
+    "img": "https://picsum.photos/seed/music4/600/400",
+    "technologies": ["React", "Google Calendar API", "Node.js"],
+    "section": "Web"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd7994391f" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd7994390e" },
+    "name": "Catálogo Online de Libros",
+    "description": "Buscador de libros por autor, género y disponibilidad con opción de reserva online.",
+    "link": "https://libreriapueblo.com.ar/catalogo",
+    "img": "https://picsum.photos/seed/book1/600/400",
+    "technologies": ["Vue.js", "Node.js", "MongoDB"],
+    "section": "Web"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd79943920" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd7994390e" },
+    "name": "Blog de Reseñas Literarias",
+    "description": "Blog con reseñas de libros escritas por el equipo y lectores de la comunidad.",
+    "link": "https://libreriapueblo.com.ar/blog",
+    "img": "https://picsum.photos/seed/book2/600/400",
+    "technologies": ["WordPress", "SEO", "Elementor"],
+    "section": "Web"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd79943921" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd79943910" },
+    "name": "Sitio Web Concesionaria",
+    "description": "Web con catálogo de vehículos nuevos y usados, comparador y formulario de test drive.",
+    "link": "https://automotoresrapido.com.ar",
+    "img": "https://picsum.photos/seed/auto1/600/400",
+    "technologies": ["React", "Node.js", "MongoDB"],
+    "section": "Web"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd79943922" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd79943910" },
+    "name": "Catálogo de Vehículos",
+    "description": "Módulo de búsqueda avanzada de vehículos con filtros por marca, precio, año y combustible.",
+    "link": "https://automotoresrapido.com.ar/catalogo",
+    "img": "https://picsum.photos/seed/auto2/600/400",
+    "technologies": ["Vue.js", "Algolia", "Node.js"],
+    "section": "Web"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd79943923" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd79943910" },
+    "name": "Turno Online para Taller",
+    "description": "Sistema de reserva de turnos para el taller mecánico con recordatorio por SMS.",
+    "link": "https://automotoresrapido.com.ar/taller",
+    "img": "https://picsum.photos/seed/auto3/600/400",
+    "technologies": ["React", "Node.js", "Twilio", "MongoDB"],
+    "section": "Web"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd79943924" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd79943911" },
+    "name": "Web Corporativa del Estudio",
+    "description": "Sitio institucional con áreas de práctica, equipo de abogados y formulario de consulta.",
+    "link": "https://consultorialegal.com.ar",
+    "img": "https://picsum.photos/seed/legal1/600/400",
+    "technologies": ["React", "Tailwind CSS", "Node.js"],
+    "section": "Web"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd79943925" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd79943912" },
+    "name": "Sitio Web Gimnasio",
+    "description": "Web institucional con planes de membresía, horarios de clases y galería de instalaciones.",
+    "link": "https://fitnessvida.com.ar",
+    "img": "https://picsum.photos/seed/gym1/600/400",
+    "technologies": ["React", "Tailwind CSS", "Node.js"],
+    "section": "Web"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd79943926" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd79943912" },
+    "name": "App de Rutinas",
+    "description": "Aplicación móvil para seguimiento de rutinas, progreso y comunicación con el entrenador.",
+    "link": "https://fitnessvida.com.ar/app",
+    "img": "https://picsum.photos/seed/gym2/600/400",
+    "technologies": ["React Native", "Firebase", "Expo"],
+    "section": "Mobile"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd79943927" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd79943912" },
+    "name": "Tienda de Suplementos",
+    "description": "E-commerce de suplementos y ropa deportiva con envío en 24 hs en CABA.",
+    "link": "https://fitnessvida.com.ar/tienda",
+    "img": "https://picsum.photos/seed/gym3/600/400",
+    "technologies": ["Next.js", "MercadoPago", "MongoDB"],
+    "section": "E-commerce"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd79943928" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd79943912" },
+    "name": "Blog de Nutrición",
+    "description": "Blog con recetas saludables, artículos de nutricionistas y planes de alimentación descargables.",
+    "link": "https://fitnessvida.com.ar/blog",
+    "img": "https://picsum.photos/seed/gym4/600/400",
+    "technologies": ["WordPress", "SEO", "Google Analytics"],
+    "section": "Marketing"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd79943929" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd79943912" },
+    "name": "Sistema de Reservas de Clases",
+    "description": "Módulo online para reservar clases grupales con cupos limitados y lista de espera.",
+    "link": "https://fitnessvida.com.ar/reservas",
+    "img": "https://picsum.photos/seed/gym5/600/400",
+    "technologies": ["Vue.js", "Node.js", "MongoDB"],
+    "section": "Web"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd7994392a" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd79943913" },
+    "name": "Sitio Web Veterinaria",
+    "description": "Web con servicios, equipo veterinario, horarios y consejos de cuidado para mascotas.",
+    "link": "https://petfriends.com.ar",
+    "img": "https://picsum.photos/seed/pet1/600/400",
+    "technologies": ["React", "Tailwind CSS", "Node.js"],
+    "section": "Web"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd7994392b" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd79943913" },
+    "name": "Tienda de Accesorios",
+    "description": "E-commerce de productos para mascotas con sección por especie y entrega a domicilio.",
+    "link": "https://petfriends.com.ar/tienda",
+    "img": "https://picsum.photos/seed/pet2/600/400",
+    "technologies": ["Next.js", "MercadoPago", "Sanity CMS"],
+    "section": "E-commerce"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd7994392c" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd79943915" },
+    "name": "Web Inmobiliaria",
+    "description": "Sitio principal con búsqueda de propiedades, mapa interactivo y perfil de asesores.",
+    "link": "https://inmobiliariadelcentro.com.ar",
+    "img": "https://picsum.photos/seed/real1/600/400",
+    "technologies": ["Next.js", "Leaflet.js", "Node.js", "MongoDB"],
+    "section": "Web"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd7994392d" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd79943915" },
+    "name": "Buscador de Propiedades",
+    "description": "Motor de búsqueda avanzado con filtros por zona, precio, ambientes y tipo de operación.",
+    "link": "https://inmobiliariadelcentro.com.ar/buscar",
+    "img": "https://picsum.photos/seed/real2/600/400",
+    "technologies": ["React", "Algolia", "Node.js"],
+    "section": "Web"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd7994392e" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd79943915" },
+    "name": "CRM Inmobiliario",
+    "description": "Sistema interno para gestión de leads, seguimiento de visitas y pipeline de ventas.",
+    "link": "https://inmobiliariadelcentro.com.ar/crm",
+    "img": "https://picsum.photos/seed/real3/600/400",
+    "technologies": ["Vue.js", "Node.js", "PostgreSQL", "Chart.js"],
+    "section": "Dashboard"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd7994392f" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd79943916" },
+    "name": "Landing Page de Lanzamiento",
+    "description": "Landing page para la captación de early adopters con lista de espera y demo interactiva.",
+    "link": "https://startupinnova.com.ar",
+    "img": "https://picsum.photos/seed/startup1/600/400",
+    "technologies": ["React", "Tailwind CSS", "Framer Motion"],
+    "section": "Web"
+  },
+  {
+    "_id": { "$oid": "7607f1f77bcf86cd79943930" },
+    "clienteId": { "$oid": "6507f1f77bcf86cd79943916" },
+    "name": "MVP de la Plataforma IA",
+    "description": "Primera versión funcional del producto con módulo de recomendaciones para retail.",
+    "link": "https://startupinnova.com.ar/app",
+    "img": "https://picsum.photos/seed/startup2/600/400",
+    "technologies": ["Python", "FastAPI", "React", "MongoDB", "OpenAI API"],
+    "section": "Dashboard"
+  }
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "_id": { "$oid": "6507f1f77bcf86cd79943901" },
+    "nombre": "Agencia Creativa AR",
+    "descripcion": "Estudio de diseño y comunicación especializado en identidad visual y campañas digitales.",
+    "foto": "https://i.pravatar.cc/300?img=1",
+    "fechaCreacion": { "$date": "2023-03-12T09:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6507f1f77bcf86cd79943902" },
+    "nombre": "TechSoluciones SA",
+    "descripcion": "Empresa de desarrollo de software a medida para pymes y corporaciones.",
+    "foto": "https://i.pravatar.cc/300?img=2",
+    "fechaCreacion": { "$date": "2023-04-05T10:30:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6507f1f77bcf86cd79943903" },
+    "nombre": "Moda & Estilo BA",
+    "descripcion": "Tienda de ropa y accesorios de diseño independiente con presencia online.",
+    "foto": "https://i.pravatar.cc/300?img=3",
+    "fechaCreacion": { "$date": "2023-05-18T08:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6507f1f77bcf86cd79943904" },
+    "nombre": "Restaurante El Sabor",
+    "descripcion": "Gastronomía de autor con enfoque en productos locales y de temporada.",
+    "foto": "https://i.pravatar.cc/300?img=4",
+    "fechaCreacion": { "$date": "2023-06-01T12:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6507f1f77bcf86cd79943905" },
+    "nombre": "Clínica Bienestar",
+    "descripcion": "Centro médico integral con especialidades en kinesiología, nutrición y psicología.",
+    "foto": "https://i.pravatar.cc/300?img=5",
+    "fechaCreacion": { "$date": "2023-06-20T09:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6507f1f77bcf86cd79943906" },
+    "nombre": "Estudio Luz",
+    "descripcion": "Fotografía profesional para marcas, eventos corporativos y retratos.",
+    "foto": "https://i.pravatar.cc/300?img=6",
+    "fechaCreacion": { "$date": "2023-07-08T11:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6507f1f77bcf86cd79943907" },
+    "nombre": "Constructora del Norte",
+    "descripcion": "Empresa constructora con más de 20 años de experiencia en obra civil y arquitectura.",
+    "foto": "https://i.pravatar.cc/300?img=7",
+    "fechaCreacion": { "$date": "2023-07-22T08:30:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6507f1f77bcf86cd79943908" },
+    "nombre": "Academia Digital",
+    "descripcion": "Plataforma de formación online en programación, diseño y marketing.",
+    "foto": "https://i.pravatar.cc/300?img=8",
+    "fechaCreacion": { "$date": "2023-08-03T10:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6507f1f77bcf86cd79943909" },
+    "nombre": "Tienda Verde",
+    "descripcion": "Comercio de productos ecológicos, orgánicos y de comercio justo.",
+    "foto": "https://i.pravatar.cc/300?img=9",
+    "fechaCreacion": { "$date": "2023-08-15T09:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6507f1f77bcf86cd7994390a" },
+    "nombre": "EventosPro",
+    "descripcion": "Organización integral de eventos corporativos, congresos y lanzamientos de productos.",
+    "foto": "https://i.pravatar.cc/300?img=10",
+    "fechaCreacion": { "$date": "2023-09-01T08:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6507f1f77bcf86cd7994390b" },
+    "nombre": "Finanzas Claras",
+    "descripcion": "Asesoría contable y financiera para emprendedores y empresas en crecimiento.",
+    "foto": "https://i.pravatar.cc/300?img=11",
+    "fechaCreacion": { "$date": "2023-09-14T10:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6507f1f77bcf86cd7994390c" },
+    "nombre": "Viajes & Aventuras",
+    "descripcion": "Agencia de turismo especializada en viajes de aventura y destinos poco convencionales.",
+    "foto": "https://i.pravatar.cc/300?img=12",
+    "fechaCreacion": { "$date": "2023-10-02T09:30:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6507f1f77bcf86cd7994390d" },
+    "nombre": "Productora Musical",
+    "descripcion": "Estudio de grabación y producción musical para artistas independientes.",
+    "foto": "https://i.pravatar.cc/300?img=13",
+    "fechaCreacion": { "$date": "2023-10-18T11:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6507f1f77bcf86cd7994390e" },
+    "nombre": "Librería del Pueblo",
+    "descripcion": "Librería y espacio cultural con foco en literatura latinoamericana y autores locales.",
+    "foto": "https://i.pravatar.cc/300?img=14",
+    "fechaCreacion": { "$date": "2023-11-05T08:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6507f1f77bcf86cd7994390f" },
+    "nombre": "Farmacia Salud Total",
+    "descripcion": "Farmacia comunitaria con servicio de asesoramiento farmacéutico personalizado.",
+    "foto": "https://i.pravatar.cc/300?img=15",
+    "fechaCreacion": { "$date": "2023-11-20T09:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6507f1f77bcf86cd79943910" },
+    "nombre": "Automotores Rápido",
+    "descripcion": "Concesionaria multimarca y taller mecánico con servicio de posventa.",
+    "foto": "https://i.pravatar.cc/300?img=16",
+    "fechaCreacion": { "$date": "2023-12-01T10:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6507f1f77bcf86cd79943911" },
+    "nombre": "Consultoría Legal MG",
+    "descripcion": "Estudio jurídico especializado en derecho comercial, laboral y propiedad intelectual.",
+    "foto": "https://i.pravatar.cc/300?img=17",
+    "fechaCreacion": { "$date": "2023-12-15T08:30:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6507f1f77bcf86cd79943912" },
+    "nombre": "Fitness & Vida",
+    "descripcion": "Cadena de gimnasios con planes de nutrición y seguimiento personalizado.",
+    "foto": "https://i.pravatar.cc/300?img=18",
+    "fechaCreacion": { "$date": "2024-01-08T09:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6507f1f77bcf86cd79943913" },
+    "nombre": "Pet Friends",
+    "descripcion": "Veterinaria, peluquería canina y tienda de accesorios para mascotas.",
+    "foto": "https://i.pravatar.cc/300?img=19",
+    "fechaCreacion": { "$date": "2024-01-22T10:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6507f1f77bcf86cd79943914" },
+    "nombre": "Galería de Arte",
+    "descripcion": "Espacio de exhibición y venta de arte contemporáneo argentino y latinoamericano.",
+    "foto": "https://i.pravatar.cc/300?img=20",
+    "fechaCreacion": { "$date": "2024-02-05T11:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6507f1f77bcf86cd79943915" },
+    "nombre": "Inmobiliaria del Centro",
+    "descripcion": "Agencia inmobiliaria con más de 15 años gestionando compra, venta y alquiler.",
+    "foto": "https://i.pravatar.cc/300?img=21",
+    "fechaCreacion": { "$date": "2024-02-19T08:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6507f1f77bcf86cd79943916" },
+    "nombre": "Startup Innova",
+    "descripcion": "Startup de tecnología enfocada en soluciones de inteligencia artificial para retail.",
+    "foto": "https://i.pravatar.cc/300?img=22",
+    "fechaCreacion": { "$date": "2024-03-04T09:30:00.000Z" }
+  }
+]
